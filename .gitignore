@@ -5,6 +5,9 @@ meta.ini
 skyrimse.ppj
 /Game Source Scripts/*
 /DialogueViews/*
+/Sound/Voice/*
+!/Sound/Voice/EmissarysDaughter.esp/
+!/Sound/Voice/EmissarysDaughter.esp/**
 /Sound/Voice/Alonythil Dialogue Staging Area/*
 /Sound/Voice/Skyrim.esm/*
 /Sound/Voice/wicourierradiant.esp/*
