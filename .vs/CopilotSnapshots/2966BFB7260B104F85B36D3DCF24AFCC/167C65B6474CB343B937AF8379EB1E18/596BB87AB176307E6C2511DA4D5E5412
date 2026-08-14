@@ -1,0 +1,60 @@
+﻿# Arc Summaries
+
+![fSSEED_IntroQuest.drawio.png](fSSEED_IntroQuest.drawio.png)
+
+***Core idea:*** The player gradually learns that emotional neutrality is a choice—one Alenawe must reckon with.
+
+## The cover
+Cover progression: recruitment (research cover) → small slips (operative language) → strained reports → protocol breach (courier) → contested association → delivered choice.
+
+Purpose: show institutions as managed fictions, reveal that Alenawe performs a role for both the Thalmor and the player, and make her reporting choices an axis of agency.
+
+## Possible play orders (summary)
+- Ideal: MinQ1 → MajQ1 → DI → MinQ2 → MajQ2 — full ramp and maximum impact.
+- Partial: DI can occur before MinQ1/MajQ1; quests adapt their framing (pre- or post-DI).
+- Fallback: If MajQ1 never fires, DI supplies the forced-clarity beat and the arc still completes.
+
+## Recruitment (brief)
+- Normal: curious, intrigued by an alternate mode of power.
+- Post-DI: guarded, suspicious; recruitment dialogue carries interlude weight. Still competent, but visibly stressed.
+
+## MINOR QUEST 1 — Observation that slips (The Inquiry)
+- Goal: plant the spine question — "How do you operate without institutional scaffolding?"
+- Delivery: idle/dead-drop triggered at Affinity ≥ Tier 1 (Stability ≠ Liability).
+- Beat: Alenawe slips into operative phrasing, self-corrects, player notices. No mechanical consequences—this logs a claim and invites further probing.
+
+## MAJOR QUEST 1 — The Model Fails (summary)
+- Gate: Affinity ≥ 21, Stability ≠ Liability, ~3 days after MinQ1.
+- Goal: force a data point that contradicts her institutional model — the player solves a field problem in a way her procedure couldn't predict.
+- Structure: dead-drop → field mission (radiant asset) → collision (her procedural approach vs. player's illegible method) → aftermath conversation where she recalculates.
+
+## INTERLUDE — Diplomatic Immunity (summary)
+- Trigger: DI event (main quest) or courier if recruited post-DI.
+- Purpose: emotional model failure — authority acted emotionally and bypassed procedure; neutrality did not insulate. The courier/protocol breach signals the system broke its own rules.
+
+## MINOR QUEST 2 — The Stakes (The Mentor)
+- Trigger: ~3 days after the Interlude; dead-drop summons a hearing.
+- Goal: system corrected; Mentor arrives to reassign her. She must argue to stay. This is the fork moment (protect Machine / self / truth / Dragonborn trajectory) and it reveals which heading she takes:
+  • Professional justification → Path A (Reformer)
+  • Request time to reclassify → Path C (Architect)
+  • Can't articulate / simply chooses proximity → Path B (Independent)
+- Player actions (support, intervene, stay silent, undermine) nudge the fork but do not decide for her.
+
+## MAJOR QUEST 2 — Choosing a Frame That Holds (summary)
+- Trigger: MinQ2 complete + ~5 days + Affinity ≥ Tier 2; delivered via dead-drop.
+- Beat 1: she drafts an assessment (truth, reframe, or legible translation).
+- Beat 2: field mission to prove that assessment — path-dependent gameplay
+  • Path A (Contain): she directs the Dragonborn to behave as a contained asset; success lets her stay and operationalize the lie.
+  • Path C (Align): she collaborates with the Dragonborn to demonstrate integration; success supports reclassification but invites institutional pushback.
+  • Path B (Unleash): she uses the Dragonborn openly to prove illegibility; the system goes silent and scaffolding collapses.
+- Beat 3: system response (dead-drop or courier) and final resolution; consequences and reward reflect which frame she chose.
+
+## End states (condensed)
+- Holding pattern: she stays useful and distant; the system persists.
+- Individuation: she chooses proximity without necessity; she stands without scaffolding and the player receives a private, pragmatic reward.
+
+## Late recruitment note
+- If recruited post-DI, the arc still functions but reframes earlier beats as retrospective and shifts emotional weight into recruitment and MinQ1/MinQ2.
+
+---
+Condensed but faithful: each quest now has a short purpose, trigger gating, and the player-facing mechanical beat while preserving core themes and outcomes.
