@@ -1,1 +1,13 @@
 The Emissary's Daughter.rar
+Story.rar
+SkyrimSE.code-workspace
+meta.ini
+skyrimse.ppj
+/Game Source Scripts/*
+/DialogueViews/*
+/Sound/Voice/Alonythil Dialogue Staging Area/*
+/Sound/Voice/Skyrim.esm/*
+/Sound/Voice/wicourierradiant.esp/*
+.vs/*
+.vscode/*
+.github/copilot-instructions.md
