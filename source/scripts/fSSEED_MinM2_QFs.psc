@@ -2,14 +2,14 @@
 ;NEXT FRAGMENT INDEX 11
 Scriptname fSSEED_MinM2_QFs Extends Quest Hidden
 
-;BEGIN ALIAS PROPERTY Request
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Request Auto
-;END ALIAS PROPERTY
-
 ;BEGIN ALIAS PROPERTY aAlenawe
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_aAlenawe Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Follower1
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Follower1 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY aAlonythil
@@ -17,10 +17,40 @@ ReferenceAlias Property Alias_aAlenawe Auto
 ReferenceAlias Property Alias_aAlonythil Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_5
-Function Fragment_5()
+;BEGIN ALIAS PROPERTY Follower2
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Follower2 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Follower6
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Follower6 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Follower5
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Follower5 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Request
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Request Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Follower4
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Follower4 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Follower3
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Follower3 Auto
+;END ALIAS PROPERTY
+
+;BEGIN FRAGMENT Fragment_9
+Function Fragment_9()
 ;BEGIN CODE
-;scene complete, start alenawe processing, wait some time
+; idle line spoken, waiting for player engagement.
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -31,6 +61,30 @@ Function Fragment_4()
 ;meeting reached, start scene
 MinM2.SetObjectiveCompleted(30)
 Meeting.Start()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_5
+Function Fragment_5()
+;BEGIN AUTOCAST TYPE fSSEED_MinM2
+Quest __temp = self as Quest
+fSSEED_MinM2 kmyQuest = __temp as fSSEED_MinM2
+;END AUTOCAST
+;BEGIN CODE
+;scene complete, start alenawe processing, wait some time
+MinM2.SetObjectiveDisplayed(100)
+kmyQuest.UnParkFollowers()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0()
+;BEGIN CODE
+;received deaddrop
+;CourierScript.AddItemToContainer(Alias_Request.GetReference())
+Mentor.MoveTo(MMarker)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -57,12 +111,10 @@ MB.SetStage(100)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
 ;BEGIN CODE
-;received deaddrop
-;CourierScript.AddItemToContainer(Alias_Request.GetReference())
-Mentor.MoveTo(MMarker)
+;player defers
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -85,16 +137,6 @@ MinM2.SetObjectiveDisplayed(30)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_7
-Function Fragment_7()
-;BEGIN CODE
-;quest complete
-MinM2.SetObjectiveCompleted(100)
-DateDone.SetValue(GameDaysPassed.GetValue())
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_1
 Function Fragment_1()
 ;BEGIN CODE
@@ -103,18 +145,12 @@ Function Fragment_1()
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_9
-Function Fragment_9()
+;BEGIN FRAGMENT Fragment_7
+Function Fragment_7()
 ;BEGIN CODE
-; idle line spoken, waiting for player engagement.
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
-;BEGIN CODE
-;player defers
+;quest complete
+MinM2.SetObjectiveCompleted(100)
+DateDone.SetValue(GameDaysPassed.GetValue())
 ;END CODE
 EndFunction
 ;END FRAGMENT

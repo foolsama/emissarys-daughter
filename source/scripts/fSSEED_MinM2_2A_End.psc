@@ -6,6 +6,7 @@ Scriptname fSSEED_MinM2_2A_End Extends TopicInfo Hidden
 Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
+GetOwningQuest().SetStage(80)
 Scene3.Start()
 ;END CODE
 EndFunction
