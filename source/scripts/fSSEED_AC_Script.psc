@@ -10,7 +10,16 @@ Quest Property MinM2 Auto
 Quest Property MajQ1 Auto
 Quest Property MajQ2 Auto
 Quest Property Interlude Auto
+Quest Property DialogFollower Auto
 VisualEffect Property MGTeleportOutEffect Auto
+
+Function PathCInterruptBegin()
+    Debug.Trace("fSSEED_AC: Alenawe set to PAth C interrupt Package")
+EndFunction
+
+Function PathCResume()
+    Debug.Trace("fSSEED_AC: Alenawe resume follower default package")
+EndFunction
 
 Function GhostAlenawe()
     ;move Alenawe to defaultHome
