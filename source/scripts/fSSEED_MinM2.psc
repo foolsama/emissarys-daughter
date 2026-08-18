@@ -16,15 +16,19 @@ Function PickScene()
 float Path = MinM2Path.GetValue()
 If PlayerResponse == 5
 	SceneX.Start()
+	Return
 EndIf
 If Path == 1
 	SceneA.Start()
+	Return
 EndIf
 If Path == 2
 	SceneB.Start()
+	Return
 EndIf
 If Path == 3
 	SceneC.Start()
+	Return
 EndIf
 EndFunction
 
@@ -54,6 +58,10 @@ Function ParkFollower(Actor akFollower)
 	;init storage only once
 	If !ParkingInitiazed
 		InitializeParking()
+	EndIf
+	If ParkingAliases == None || ParkingAliases.Length == 0
+		Debug.Trace("fSSEED_MinM2: ParkingAliases is empty; cannot park " + akFollower)
+		Return
 	EndIf
 
 	; meeting is private, pound sand
