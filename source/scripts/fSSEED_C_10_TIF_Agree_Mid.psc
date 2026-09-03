@@ -7,6 +7,7 @@ Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
 Affinity.Mod(3)
+FindBooks.SetStage(10)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -14,3 +15,5 @@ EndFunction
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
 
 GlobalVariable Property Affinity  Auto  
+
+Quest Property FindBooks  Auto  

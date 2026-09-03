@@ -28,5 +28,6 @@ Event OnStoryAssaultActor(ObjectReference akVictim, ObjectReference akAttacker, 
 	endif
 
 	tracker.HandleStoryAssaultEvent(akVictim, akAttacker, akLocation, aiCrime)
+	; Story Manager restarts this quest on the next matching event; stopping here just resets it.
 	Stop()
 EndEvent

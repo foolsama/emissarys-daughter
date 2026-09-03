@@ -3,10 +3,13 @@ Scriptname fSSEED_MinM2 extends Quest  Conditional
 Int Property PlayerResponse  Auto  Conditional
 
 GlobalVariable Property MinM2Path  Auto  
+GlobalVariable Property Affinity  Auto
+GlobalVariable Property InterludeHandledWell  Auto
 Scene Property SceneA Auto
 Scene Property SceneB Auto
 Scene Property SceneC Auto
 Scene Property SceneX Auto
+Scene Property SceneBye Auto
 ObjectReference Property FollowerMarker  Auto  
 Actor Property Alenawe Auto
 ReferenceAlias[] Property ParkingAliases Auto

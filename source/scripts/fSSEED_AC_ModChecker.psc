@@ -1,6 +1,7 @@
 Scriptname fSSEED_AC_ModChecker extends Quest Conditional
 
 Bool Property ccRisingDeadStage40Done Auto Conditional
+Bool Property FossilFound Auto Conditional
 
 Quest RisingDeadQuest
 

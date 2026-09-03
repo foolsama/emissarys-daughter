@@ -6,7 +6,7 @@ Scriptname fSSEED_C_2_TIF_4 Extends TopicInfo Hidden
 Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-(GetOwningQuest() as fSSEED_Convo_Tracker).Convo2 = 1
+(GetOwningQuest() as fSSEED_Convo_Tracker).Convo2 = 0
 ;END CODE
 EndFunction
 ;END FRAGMENT

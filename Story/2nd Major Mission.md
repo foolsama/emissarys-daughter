@@ -177,8 +177,6 @@ The injury is recognition, not surprise.
 
 The Dragonborn’s arrival triggers destruction, relocation, and containment procedures.
 
-The player chooses what to prioritize. These actions affect Affinity, Stability, and how much access Alenawe grants them during the final decision—but not her A/B/C path.
-
 ### Phase 4 - Her first autonomous act
 
 This is where MajQ2 earns its climax.
@@ -235,6 +233,22 @@ The site should contain at least some elements that are specifically Elder Scrol
 - At least one environmental detail that connects to the deeper Thalmor metaphysics (the Mundus-as-prison framework) without requiring the player to know lore to understand the scene
 
 These are texture, not exposition. They make the site feel like a Thalmor operation rather than a generic black site.
+
+Alenawe can explain the entire revelation without an organizational lecture:
+
+Northwatch was not withholding records from its superiors. It was withholding them *for* its superiors.
+
+"Regional Coordination was never meant to see this. Neither was I."
+
+If the player asks how both orders could exist:
+
+PLAYER:
+
+Then why were we sent here?
+
+ALENAWE:
+
+"An office performed an audit it was authorized to perform, against an operation it was not authorized to understand."
 
 
 ## The One-Sentence Version

@@ -18,7 +18,6 @@ Event OnStoryCrimeGold(ObjectReference akVictim, ObjectReference akCriminal, \
 	fSSEED_LocationTracker tracker = GetTracker()
 	if tracker == None
 		Debug.Trace("FSSEED:SMCrimeGoldRelay - tracker missing; set TrackerPlayerAlias property")
-		Stop()
 		return
 	endif
 
@@ -29,6 +28,6 @@ Event OnStoryCrimeGold(ObjectReference akVictim, ObjectReference akCriminal, \
 	ElseIf StabilityTier.GetValue() == 1 && Warned.GetValue() == 3
 		Escape.Start()
 	EndIf
-
+	; Story Manager restarts this quest on the next matching event; stopping here just resets it.
 	Stop()
 EndEvent

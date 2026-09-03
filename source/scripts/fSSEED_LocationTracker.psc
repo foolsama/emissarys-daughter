@@ -18,6 +18,7 @@ Quest Property C03 Auto
 Quest Property MG04 Auto
 Quest Property TG03 Auto
 Quest Property DB05 Auto
+Quest Property MS09 Auto
 Quest Property CWSiegeObj Auto
 Quest Property RiftenThane Auto
 Quest Property Favor250 Auto
@@ -41,6 +42,8 @@ GlobalVariable Property MajQ1DaysPassed Auto
 GlobalVariable Property MinM2DaysPassed Auto
 GlobalVariable Property InterludeDaysPassed Auto
 GlobalVariable Property DateEmbassyBreached Auto
+GlobalVariable Property DateKeepExited Auto
+GlobalVariable Property WarnedCount Auto
 
 ; ===== Full Stability telemetry hooks (CK-wired, non-GV) =====
 ; Major arc completions intended by Affinity System design (+30/+20/+20/+15 style events)
@@ -203,6 +206,12 @@ Function TryStartWarn(string asSource)
         return
     endif
 
+    If WarnedCount.GetValue() >= 4
+        (AlenaweController as fSSEED_AC_SCript).GhostAlenawe()
+        Debug.Trace("fSSEED_LocationTracker: Player F'd up too many times, ghosting Alenawe!")
+        return
+    EndIf
+
     if Warn.IsPlaying()
         Debug.Trace("FSSEED:Stability - Warn scene already playing, skipping")
         return
@@ -214,14 +223,15 @@ Function TryStartWarn(string asSource)
         return
     endif
     LastWarnTime = now
-    (conv as fSSEED_Convo_Tracker).Convo2 = 0
+    (conv as fSSEED_Convo_Tracker).Convo2 = 1
     Debug.Trace("FSSEED:Stability - Warn scene started from " + asSource)
     Warn.Start()
 EndFunction
 
 Function InitializeStabilityTracking()
-    ; Tuning: initialize only if the system has never assigned a tier before.
-    ; Neutral baseline is now 0.0, with permanent stabilizers adding to the base score.
+    ; Base is recomputed every telemetry pass now (see UpdateStabilityTelemetry), so this only
+    ; needs to seed Adjusted/Tier the first time the system has never assigned a tier before.
+    ; Neutral baseline is 0.0, with permanent stabilizers/destabilizers adjusting the base score.
     if StabilityScore && StabilityTier && StabilityTier.GetValueInt() < 1
         float startingScore = GetStabilizerScore()
         StabilityScore.SetValue(startingScore)
@@ -319,7 +329,7 @@ Event OnLocationChange(Location akOldLoc, Location akNewLoc)
                 MissionBegins.SetStage(10)
                 DEBUG.Trace("FSSEED:Tracker - MissionBegins is now " + MissionBegins.GetCurrentStageID())
             endif
-            if MissionBegins.GetCurrentStageID() == 10
+            if MissionBegins.GetCurrentStageID() >= 10 && !MissionBegins.IsCompleted() && !Alenawe.IsInFaction(CurrentFollowerFaction)
                 stalker.MissionTravel()
             endif
         endif
@@ -354,6 +364,9 @@ Function UpdateStabilityTelemetry()
     LastDaysJailed = daysJailedNow
 
     ; Tuning: passive decay on the hidden telemetry channels.
+    ; Repeated calls are intentional here: each event trigger (kill/assault/crimegold, location
+    ; change, scheduled tick) is tied to real gameplay progression, so every pass is expected to
+    ; erode old behavior toward baseline rather than let a single bad streak linger forever.
     ; Bigger decay = the player recovers from old behavior faster.
     ; Smaller decay = bad patterns linger longer and Stability feels less forgiving.
     RollingVolatility = ClampFloat(RollingVolatility - 1.0, 0.0, 100.0)
@@ -415,9 +428,12 @@ Function UpdateStabilityTelemetry()
     ; Neutral baseline is the permanent base score. Temporary telemetry then pulls above or below
     ; that baseline and gradually decays away.
     ; The 0.7 multiplier makes friction meaningful but still weaker than direct volatility.
-    float baseScore = 0.0
+    ; Recomputed every pass (not just at init) so permanent stabilizers/destabilizers
+    ; completed mid-playthrough actually move Base instead of freezing it at whatever
+    ; it happened to be the first time the tier was assigned.
+    float baseScore = GetStabilizerScore()
     if StabilityScore
-        baseScore = StabilityScore.GetValue()
+        StabilityScore.SetValue(baseScore)
     endif
 
     ; Cap how much the rolling telemetry can improve score so "no crime sprees"
@@ -483,7 +499,7 @@ float Function GetStabilizerScore()
         score += 20.0
     endif
 
-    if RiftenThane && RiftenThane.IsCompleted()
+    if RiftenThane && RiftenThane.GetStageDone(200)
         score += 3.0
     endif
     if Favor250 && Favor250.IsCompleted()
@@ -507,8 +523,21 @@ float Function GetStabilizerScore()
     if Favor257 && Favor257.IsCompleted()
         score += 3.0
     endif
-    if Favor258 && Favor258.IsCompleted()
+    if Favor258 && Favor258.GetStageDone(200)
         score += 3.0
+    endif
+
+    ; Stabilizers: quests where a major Daedric threat was successfully contained.
+    if MajorDaedricContainmentQuests
+        int containCount = MajorDaedricContainmentQuests.GetSize()
+        int containI = 0
+        while containI < containCount
+            Quest containQ = MajorDaedricContainmentQuests.GetAt(containI) as Quest
+            if containQ && containQ.IsCompleted()
+                score += 3.0
+            endif
+            containI += 1
+        endwhile
     endif
 
     ; Destabilizers: completed quests that are "bad for the world" (e.g., Molag Bal, Mehrunes Dagon, etc.)
@@ -522,8 +551,9 @@ float Function GetStabilizerScore()
             endif
             i += 1
         endwhile
-    return score
     endif
+
+    return score
 EndFunction
 
 int Function GetTierFromScore(float aiScore)
@@ -667,10 +697,10 @@ Function QuestStarters()
     ; Send Elenwen's letter 3 days after MQ201.
     Location playerLocation = Game.GetPlayer().GetCurrentLocation()
     Location alenaweLocation = Alenawe.GetCurrentLocation()
-    bool courierTimingReady = DateEmbassyBreached.GetValue() > 0 && CurrentDays - DateEmbassyBreached.GetValue() >= 3.0 && Interlude.GetStage() == 28
+    bool courierTimingReady = DateEmbassyBreached.GetValue() > 0 && CurrentDays - DateEmbassyBreached.GetValue() >= 3.0
     bool courierLocationReady = alenaweLocation != None && playerLocation != None && alenaweLocation.IsSameLocation(playerLocation, LocTypeHabitation)
     bool courierDeliverySpaceReady = playerLocation != None && playerLocation.HasKeyword(LocTypeHabitation) && !Game.GetPlayer().IsInInterior()
-    If MQ201.GetStage() >= 227 && courierTimingReady && courierLocationReady && courierDeliverySpaceReady
+    If !Interlude.IsCompleted() && MQ201.GetStage() >= 227 && courierTimingReady && courierLocationReady && courierDeliverySpaceReady
         If !Courier.GetRef().IsEnabled()
             Courier.GetRef().Enable()
         EndIf
@@ -680,9 +710,9 @@ Function QuestStarters()
             LetterDays = GameDaysPassed.GetValue()
             Debug.Trace("FSSEED:Tracker - Interlude letter delivery started.")
         Else
-            Debug.Trace("FSSEED:Tracker - InterludeCourier property is not filled; delivery not started.")
+            Debug.Trace("FSSEED:Tracker - Days since Embassy breach = " + (CurrentDays - DateEmbassyBreached.GetValue()))
         EndIf
-    ElseIf MQ201.GetStage() >= 227 && courierTimingReady
+    ElseIf !Interlude.IsCompleted() && MQ201.GetStage() >= 227 && courierTimingReady
         Debug.Trace("FSSEED:Tracker - Interlude delivery waiting: sameLocation=" + courierLocationReady + ", exteriorHabitation=" + courierDeliverySpaceReady + ", player=" + playerLocation + ", Alenawe=" + alenaweLocation)
     EndIf
     ; Alenawe processing time complete after letter
@@ -690,13 +720,20 @@ Function QuestStarters()
         Interlude.SetStage(50)
         Debug.Trace("FSSEED:Tracker - Interlude stage set to 50 from location tracker")
         EndIf
-    ; Start MajQ2 three days after MinM2 completed
-    If MinM2.IsCompleted() && !MajQ2.IsRunning() && !MajQ2.IsCompleted()
-        Debug.Trace("FSSEED:Tracker - Days since MinM2 = " + (CurrentDays - MinM2DaysPassed.GetValue()))
-        If CurrentDays - MinM2DaysPassed.GetValue() >= 3.0
-            MajQ2.SetStage(0)
-            Debug.Trace("FSSEED:Tracker - MajQ2 initialized from MinM2")
+    ; Start MajQ2 three days after MinM2 completed without interfering with MS09
+    If !MS09.IsRunning() || MS09.IsCompleted()
+        If MinM2.IsCompleted() && !MajQ2.IsRunning() && !MajQ2.IsCompleted()
+            Debug.Trace("FSSEED:Tracker - Days since MinM2 = " + (CurrentDays - MinM2DaysPassed.GetValue()))
+            If CurrentDays - MinM2DaysPassed.GetValue() >= 3.0
+                MajQ2.SetStage(0)
+                Debug.Trace("FSSEED:Tracker - MajQ2 initialized from MinM2")
+            EndIf
         EndIf
+    EndIf
+    ; Update MajQ2 a day after Keep exited
+    If MajQ2.GetStage() == 90 && GameDaysPassed.GetValue() - DateKeepExited.GetValue() >= 1.0 && playerLocation.HasKeyword(LocTypeHabitation)
+        MajQ2.SetStage(100)
+        Debug.Trace("FSSEED:Tracker - MajQ2 updated to stage 100 after Keep exit")
     EndIf
 EndFunction
 

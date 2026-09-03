@@ -51,6 +51,7 @@ Function CheckPosition()
 		if InterludeController != None && KatlasFarmLocation != None && Game.GetPlayer().GetCurrentLocation() == KatlasFarmLocation
 			InterludeController.BeginEmbassyHandoffWatch()
 			Debug.Trace("fSSEED_I: EmbassyHandoffWatch called from Alenawe Alias script")
+			Debug.Notification("Alenawe is heading to The Winking Skeever.")
 		endif
 	endif
 

@@ -27,6 +27,7 @@ Conversations.Start()
 If !GetOwningQuest().GetStage() == 10
     GetOwningQuest().SetStage(10)
 EndIf
+PlayerBehavior.StartBehaviorTracking()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -44,3 +45,5 @@ GlobalVariable Property GameDays  Auto
 GlobalVariable Property DateDismissed  Auto  
 
 Quest Property Conversations  Auto  
+
+fSSEED_PlayerBehaviorScript Property PlayerBehavior Auto

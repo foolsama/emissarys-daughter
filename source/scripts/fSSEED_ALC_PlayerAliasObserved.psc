@@ -1,13 +1,21 @@
 Scriptname fSSEED_ALC_PlayerAliasObserved extends ReferenceAlias  
 
-Event OnSpellCast(form akSpell)
+fSSEED_PlayerBehaviorScript Property Tracker Auto
 
-int SpellCastsThisCombat 
-int ArcaneScore
+Event OnSpellCast(Form akSpell)
 
-If SpellCastsThisCombat < 3
-    ArcaneScore += 1
-    SpellCastsThisCombat += 1
-EndIf
+	If !Tracker.ObservingCombat
+		Return
+	EndIf
 
+	Spell CastSpell = akSpell as Spell
+
+	If CastSpell
+		Tracker.RegisterSpellCast()
+	EndIf
+
+EndEvent
+
+Event OnPlayerBowShot(Weapon akWeapon, Ammo akAmmo, Float afPower, Bool abSunGazing)
+	(Tracker as fSSEED_PlayerBehaviorScript).RegisterBowShot()
 EndEvent

@@ -27,6 +27,7 @@ Conversations.Start()
 If !AC.GetStage() == 10
     AC.SetStage(10)
 EndIf
+PlayerBehavior.StartBehaviorTracking()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -44,3 +45,5 @@ GlobalVariable Property GameDays  Auto
 Quest Property pDialogueFollower  Auto  
 
 Quest Property AC  Auto  
+
+fSSEED_PlayerBehaviorScript Property PlayerBehavior Auto

@@ -30,6 +30,7 @@ Function GhostAlenawe()
     Alenawe.SetAlpha(0,true)
     Utility.Wait(1.0)
     Alenawe.MoveTo(loc)
+    Oops.Show()
     ;Stop superfluous quests
     If MissionBegins.IsRunning()
         MissionBegins.SetStage(100)
@@ -58,3 +59,5 @@ Function GhostAlenawe()
         Alonythil.Disable()
     EndIf
 EndFunction
+
+Message Property Oops  Auto  

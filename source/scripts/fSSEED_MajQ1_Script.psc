@@ -6,6 +6,7 @@ Faction Property DismissedFollowerFaction Auto
 GlobalVariable Property Playstyle Auto
 LocationAlias Property Mine  Auto  
 Quest Property ThisQuest Auto
+fSSEED_PlayerBehaviorScript Property PlayerBehavior Auto
 
 Bool Function CanDeliverMajQ1()
     if GetStage() != 0
@@ -29,16 +30,23 @@ Bool Function IsAlenaweFollowing()
 EndFunction
 
 Function SetPlayerPlaystyle()
-    Actor P = Game.GetPlayer()
-    If P.GetAV("Magicka") > P.GetAV("Stamina")
-        Playstyle.SetValue(3)
-        Debug.Trace("fSSEED_MajQ1: Player assumed Mage")
-    ElseIf P.GetAV("Sneak") > 55
-        Playstyle.SetValue(2)
-        Debug.Trace("fSSEED_MajQ1: Player assumed Thief")
+    If PlayerBehavior.MartialScore + PlayerBehavior.RogueScore + PlayerBehavior.ArcaneScore + PlayerBehavior.RangedScore > 6
+        PlayerBehavior.CalculatePlayStyle()
+        If PlayStyle.GetValue() == 4
+            PlayStyle.SetValue(1)
+        EndIf
     Else
-        Playstyle.SetValue(1)
-        Debug.Trace("fSSEED_MajQ1: Player assumed Warrior")
+    Actor P = Game.GetPlayer()
+        If P.GetBaseActorValue("Magicka") > P.GetBaseActorValue("Stamina")
+            Playstyle.SetValue(3)
+            Debug.Trace("fSSEED_MajQ1: Player assumed Mage")
+        ElseIf P.GetBaseActorValue("Sneak") > 55
+            Playstyle.SetValue(2)
+            Debug.Trace("fSSEED_MajQ1: Player assumed Thief")
+        Else
+            Playstyle.SetValue(1)
+            Debug.Trace("fSSEED_MajQ1: Player assumed Warrior")
+        EndIf
     EndIf
 EndFunction
 

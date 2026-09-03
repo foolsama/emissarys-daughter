@@ -1,10 +1,40 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 44
+;NEXT FRAGMENT INDEX 52
 Scriptname fSSEED_QF_MajQ2 Extends Quest Hidden
+
+;BEGIN ALIAS PROPERTY AdminKey000
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_AdminKey000 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY SpawnedMook2
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_SpawnedMook2 Auto
+;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Hijacker
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_Hijacker Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Clerk
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Clerk Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY AdminKey
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_AdminKey Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Assignment
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Assignment Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Player
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Player Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Alenawe
@@ -12,90 +42,70 @@ ReferenceAlias Property Alias_Hijacker Auto
 ReferenceAlias Property Alias_Alenawe Auto
 ;END ALIAS PROPERTY
 
+;BEGIN ALIAS PROPERTY SpawnedMook3
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_SpawnedMook3 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY SpawnedMook1
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_SpawnedMook1 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Boss
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Boss Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY AdminChest
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_AdminChest Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Ledger
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Ledger Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY SpawnedBoss
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_SpawnedBoss Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY GateGuard
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_GateGuard Auto
+;END ALIAS PROPERTY
+
 ;BEGIN ALIAS PROPERTY Keep
 ;ALIAS PROPERTY TYPE LocationAlias
 LocationAlias Property Alias_Keep Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_6
-Function Fragment_6()
+;BEGIN ALIAS PROPERTY Strategy
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Strategy Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY SpawnedMook4
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_SpawnedMook4 Auto
+;END ALIAS PROPERTY
+
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
 ;BEGIN CODE
-;Conversation complete
-;Enable cell hijack
-Alias_Hijacker.GetReference().Enable()
-;Enable/Reset exterior guards
-SetObjectiveDisplayed(20)
+;Alenawe receives delivery note
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_32
-Function Fragment_32()
+;BEGIN FRAGMENT Fragment_3
+Function Fragment_3()
 ;BEGIN CODE
-;Path A resolution
-; Alenawe chooses to make the operation institutionally legible in a form that cannot be quietly buried.
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_16
-Function Fragment_16()
-;BEGIN CODE
-; Captive released = True
-; (imp prison door script)
-; captive receives simple travel package
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_22
-Function Fragment_22()
-;BEGIN CODE
-; master ledger reached
-; OnAcitvate/Conatiner open trigger, not OnRead() or AddItem
-; Play Alenawe line identifying it
-; Objective compelte OnRead
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_20
-Function Fragment_20()
-;BEGIN CODE
-; Inner section breached
-; Sanitation stage
-SetObjectiveDisplayed(70)
-; admin package: travel to idle marker, use (burn), flee
-; enable burning-paper effects/destroyed records
-; Enable inner reinforcement group
-; enemy reaction bark
-; lock one route out/area for tension
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
-;BEGIN CODE
-;Classification system exposed
-; Triggered by a middle-zone box, a routing document, or the player reaching the cells.
-; Increment evidence
-; Play Alenawe's first genuinely unsettled line
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_12
-Function Fragment_12()
-;BEGIN CODE
-;Outer-layer evidence encountered
-; Alenawe makes an operational observation
-; Count 1st evidence category
-; Establish site is not merely a prison
-
-; 1st evidence should be plausible: names, intake dates, confiscated belongings,
-; health/skill assessments
-; routing recommendations
+;Note read
+;Enable pre-mission conversation
+SetObjectiveDisplayed(10)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -106,7 +116,6 @@ Function Fragment_8()
 ;Keep entered
 SetObjectiveCompleted(20)
 SetObjectiveDisplayed(40)
-;Burn notice given and scrambling package activated
 
 ; The outer area should look defensible at this stage
 ; organized supplies, beds, intake records, guards, desks. 
@@ -115,36 +124,28 @@ SetObjectiveDisplayed(40)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_18
-Function Fragment_18()
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
 ;BEGIN CODE
-; Strategic Connection found
-; Inner correspondence read
-; Increment evidence
-; Alenawe recognizes that the operation is preserving or manufacturing instability rather than merely responding to it.
-SetObjectiveCompleted(40)
-SetObjectiveDisplayed(60)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_36
-Function Fragment_36()
-;BEGIN CODE
-; Path C resolution
-; Alenawe divides and curates the evidence through the network she proposed in MinQ2.
-; mark network as active, enable Path C comments/packages
+;purge initiated
+SetObjectiveDisplayed(70)
+Game.GetPlayer().RemoveFromFaction(KeepFaction)
+Game.GetPlayer().RemoveFromFaction(NorthwatchFaction)
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
 ;BEGIN FRAGMENT Fragment_24
 Function Fragment_24()
+;BEGIN AUTOCAST TYPE fSSEED_MajQ2_Script
+Quest __temp = self as Quest
+fSSEED_MajQ2_Script kmyQuest = __temp as fSSEED_MajQ2_Script
+;END AUTOCAST
 ;BEGIN CODE
 ; ledger recovered
 ; The player should be allowed to stealth in, take the ledger, and leave.
 ; LedgerRecovered = true
-SetObjectiveCompleted(70)
+LetsGo.Start()
 SetObjectiveDisplayed(90)
 ; turn off reinforcements
 ;END CODE
@@ -153,57 +154,39 @@ EndFunction
 
 ;BEGIN FRAGMENT Fragment_28
 Function Fragment_28()
+;BEGIN AUTOCAST TYPE fSSEED_MajQ2_Script
+Quest __temp = self as Quest
+fSSEED_MajQ2_Script kmyQuest = __temp as fSSEED_MajQ2_Script
+;END AUTOCAST
 ;BEGIN CODE
 ;Player exits keep
+If IsObjectiveDisplayed(40)
+SetObjectiveDisplayed(40, false)
+EndIf
+If IsObjectiveDisplayed(42)
+SetObjectiveDisplayed(42, false)
+EndIf
+If IsObjectiveDisplayed(44)
+SetObjectiveDisplayed(44, false)
+EndIf
 SetObjectiveCompleted(90)
+; freeze Tracker.Class / .Pattern tracking
+(Tracker as fSSEED_PlayerBehaviorScript).FreezeBehaviorProfile()
+;Remove "stolen" books
+Game.GetPlayer().RemoveItem(log, 1)
+Alias_Alenawe.GetReference().AddItem(log, 1)
+Game.GetPlayer().RemoveItem(memo, 1)
+Alias_Alenawe.GetReference().AddItem(memo, 1)
+Game.GetPlayer().RemoveItem(guidance, 1)
+Alias_Alenawe.GetReference().AddItem(guidance, 1)
+Game.GetPlayer().RemoveItem(Alias_Ledger.GetReference(), 1)
+Alias_Alenawe.GetReference().AddItem(Alias_Ledger.GetReference(), 1)
+Game.GetPlayer().RemoveItem(Alias_Strategy.GetReference(), 1)
+Alias_Alenawe.GetReference().AddItem(Alias_Strategy.GetReference(), 1)
+Game.GetPlayer().RemoveItem(log, 1)
+Alias_Alenawe.GetReference().AddItem(log, 1)
 ; fire Alenawe delay line
 ; Set processing timer for post-mission conversation
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
-;BEGIN CODE
-;Fill Alenawe, player, ledger, administrator, captive, and site aliases.
-;Reset quest script variables.
-;Prepare the delivery.
-; freeze Tracker.Class / .Pattern tracking
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_34
-Function Fragment_34()
-;BEGIN CODE
-; Path B resolution
-; Alenawe witholds or destroys the records
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_30
-Function Fragment_30()
-;BEGIN CODE
-; post-mission conversation available
-SetObjectiveDisplayed(100)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_3
-Function Fragment_3()
-;BEGIN CODE
-;Note read
-;Enable pre-mission conversation
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
-;BEGIN CODE
-;Alenawe receives delivery note
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -213,6 +196,7 @@ Function Fragment_39()
 ;BEGIN CODE
 ; Narrative closure
 SetObjectiveCompleted(100)
+MS09TriggerDisabler.Enable()
 ; Set MajQ2 completion date
 ; unlock conversations
 ; unlock tier 4 content
@@ -232,6 +216,84 @@ Alias_Hijacker.GetReference().Disable()
 EndFunction
 ;END FRAGMENT
 
+;BEGIN FRAGMENT Fragment_6
+Function Fragment_6()
+;BEGIN CODE
+;Conversation complete
+;Enable cell hijack
+MajQ2Script.SaveMS09()
+Alias_Hijacker.GetReference().Enable()
+MS09TriggerDisabler.Disable()
+;Enable/Reset exterior guards
+SetObjectiveCompleted(10)
+SetObjectiveDisplayed(20)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0()
+;BEGIN CODE
+;Fill Alenawe, player, ledger, administrator, captive, and site aliases.
+;Reset quest script variables.
+;Prepare the delivery.
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_48
+Function Fragment_48()
+;BEGIN CODE
+;Hold pattern before Purge
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_50
+Function Fragment_50()
+;BEGIN CODE
+; Guard escorts us to Clerk
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_30
+Function Fragment_30()
+;BEGIN CODE
+; post-mission conversation available
+MajQ2Script.CleanMS09()
+SetObjectiveDisplayed(100)
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
 
 GlobalVariable Property GameDaysPassed  Auto  
+
+Quest Property Tracker  Auto  
+
+GlobalVariable Property Playstyle  Auto  
+
+fSSEED_MajQ2_Script Property MajQ2Script  Auto
+Faction Property KeepFaction  Auto  
+
+Faction Property ThalmorFaction  Auto  
+
+Faction Property NorthwatchFaction  Auto  
+
+ObjectReference Property MS09TriggerDisabler  Auto  
+
+ObjectReference Property Reinforcements  Auto  
+
+Scene Property Sneaky  Auto  
+
+ObjectReference Property Guidance  Auto  
+
+ObjectReference Property log  Auto  
+
+ObjectReference Property Memo  Auto  
+
+Scene Property KeepExit  Auto  
+
+Scene Property LetsGo  Auto  

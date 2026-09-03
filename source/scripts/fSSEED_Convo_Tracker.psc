@@ -55,31 +55,31 @@ Function UpdateConversations()
     ;Conversation 1, "So, what have you observed of me so far?"
     ;Available 3-5 days after recruitment. Mid/Late variants upgrade by affinity only
     If Convo1 == 40
-        Debug.Trace("fSSEED_Conversations: Convo1 is 40")
+        Debug.Trace("fSSEED_Conversations: Convo1 is " + Convo1)
         If Affinity.GetValue() > 60
             Convo1 = 50
-            Debug.Trace("fSSEED_Conversations: Convo1 upgraded to 50")
+            Debug.Trace("fSSEED_Conversations: Convo1 upgraded to " + Convo1)
         EndIf
     ElseIf Convo1 == 20
-        Debug.Trace("fSSEED_Conversations: Convo1 is 20")
+        Debug.Trace("fSSEED_Conversations: Convo1 is " + Convo1)
         If Affinity.GetValue() > 60
             Convo1 = 50
-            Debug.Trace("fSSEED_Conversations: Convo1 upgraded to 50")
-        ElseIf Affinity.GetValue() > 20
+            Debug.Trace("fSSEED_Conversations: Convo1 upgraded to " + Convo1)
+        ElseIf Affinity.GetValue() > 40
             Convo1 = 30
-            Debug.Trace("fSSEED_Conversations: Convo1 upgraded to 30")
+            Debug.Trace("fSSEED_Conversations: Convo1 upgraded to " + Convo1)
         EndIf
     ElseIf Convo1 == 0
         If GameDaysPassed.GetValue() - DaysSinceHire.GetValue() > 3
             If Affinity.GetValue() > 60
                 Convo1 = 50
-                Debug.Trace("fSSEED_Conversations: Convo1 upgraded to 50")
-            ElseIf Affinity.GetValue() > 20
+                Debug.Trace("fSSEED_Conversations: Convo1 upgraded to " + Convo1)
+            ElseIf Affinity.GetValue() > 40
                 Convo1 = 30
-                Debug.Trace("fSSEED_Conversations: Convo1 upgraded to 30")
+                Debug.Trace("fSSEED_Conversations: Convo1 upgraded to " + Convo1)
             Else
                 Convo1 = 10
-                Debug.Trace("fSSEED_Conversations: Convo1 upgraded to 10")
+                Debug.Trace("fSSEED_Conversations: Convo1 upgraded to " + Convo1)
             EndIf
         EndIf
     EndIf
@@ -90,17 +90,17 @@ Function UpdateConversations()
     If Convo3 == 40
         If Affinity.GetValue() > 60 && Interlude.IsCompleted()
             Convo3 = 50
-            Debug.Trace("fSSEED_Conversations: Convo3 upgraded to 50")
+            Debug.Trace("fSSEED_Conversations: Convo3 upgraded to " + Convo3)
         EndIf
     ElseIf Convo3 == 20
         If Affinity.GetValue() > 20
             Convo3 = 30
-            Debug.Trace("fSSEED_Conversations: Convo3 upgraded to 50")
+            Debug.Trace("fSSEED_Conversations: Convo3 upgraded to " + Convo3)
         EndIf
     ElseIf Convo3 < 10
         If GameDaysPassed.GetValue() - DaysSinceHire.GetValue() > 7
             Convo3 = 10
-            Debug.Trace("fSSEED_Conversations: Convo3 upgraded to 10 from time in service")
+            Debug.Trace("fSSEED_Conversations: Convo3 upgraded to " + Convo3 + " from time in service")
         EndIf
     EndIf
 
@@ -110,19 +110,19 @@ Function UpdateConversations()
         If Convo4 == 40
             If Affinity.GetValue() > 60
                 Convo4 = 50
-                Debug.Trace("fSSEED_Conversations: Convo4 upgraded to 50")
+                Debug.Trace("fSSEED_Conversations: Convo4 upgraded to " + Convo4)
             EndIf
         ElseIf Convo4 == 20 || Convo4 == 10
             If Affinity.GetValue() > 40
                 Convo4 = 50
-                Debug.Trace("fSSEED_Conversations: Convo4 upgraded to 50")
+                Debug.Trace("fSSEED_Conversations: Convo4 upgraded to " + Convo4)
             ElseIf Affinity.GetValue() > 20
                 Convo4 = 30
-                Debug.Trace("fSSEED_Conversations: Convo4 upgraded to 30")
+                Debug.Trace("fSSEED_Conversations: Convo4 upgraded to " + Convo4)
             EndIf
         ElseIf Convo4 == 0
             Convo4 = 1
-            Debug.Trace("fSSEED_Conversations: Convo4 set to 1 (idle trigger)")
+            Debug.Trace("fSSEED_Conversations: Convo4 set to " + Convo4 + " (idle trigger)")
         EndIf
     EndIf
 
@@ -130,50 +130,39 @@ Function UpdateConversations()
     ;Conversation 8, "Where were you before this," is available immediately, and upgrades to mid/late variants based on affinity.
     If Affinity.GetValue() > 75
         Convo8 = 50
-        Debug.Trace("fSSEED_Conversations: Convo8 upgraded to 50")
+        Debug.Trace("fSSEED_Conversations: Convo8 upgraded to " + Convo8)
     ElseIf Convo8 == 20
         If Affinity.GetValue() > 75
             Convo8 = 50
-            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to 50")
+            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to " + Convo8)
         ElseIf Affinity.GetValue() > 45
             Convo8 = 30
-            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to 30")
+            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to " + Convo8)
         EndIf
     ElseIf Convo8 == 0
         If Affinity.GetValue() > 75
             Convo8 = 50
-            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to 50")
+            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to " + Convo8)
         ElseIf Affinity.GetValue() > 45
             Convo8 = 30
-            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to 30")
+            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to " + Convo8)
         Else
             Convo8 = 10
-            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to 10")
+            Debug.Trace("fSSEED_Conversations: Convo8 upgraded to " + Convo8)
         EndIf
     EndIf
 
     ;Conversation 10, "What do you do when you're not working?" is available immediately, and upgrades to mid/late variants based on affinity.
-    If Affinity.GetValue() > 60
+    If Convo10 == 40 && Affinity.GetValue() > 60
         Convo10 = 50
-        Debug.Trace("fSSEED_Conversations: Convo10 upgraded to 50")
-    ElseIf Convo10 == 20
-        If Affinity.GetValue() > 60
-            Convo10 = 50
-            Debug.Trace("fSSEED_Conversations: Convo10 upgraded to 50")
-        ElseIf Affinity.GetValue() > 35
-            Convo10 = 30
-            Debug.Trace("fSSEED_Conversations: Convo10 upgraded to 30")
-        EndIf
+        Debug.Trace("fSSEED_Conversations: Convo10 upgraded to " + Convo10)
+
+    ElseIf Convo10 == 20 && Affinity.GetValue() > 35
+        Convo10 = 30
+        Debug.Trace("fSSEED_Conversations: Convo10 upgraded to " + Convo10)
+
     ElseIf Convo10 == 0
-        If Affinity.GetValue() > 60
-            Convo10 = 50
-            Debug.Trace("fSSEED_Conversations: Convo10 upgraded to 50")
-        ElseIf Affinity.GetValue() > 35
-            Convo10 = 30
-            Debug.Trace("fSSEED_Conversations: Convo10 upgraded to 30")
-        Else
-            Convo10 = 10
-            Debug.Trace("fSSEED_Conversations: Convo10 upgraded to 10")
-        EndIf
+        Convo10 = 10
+        Debug.Trace("fSSEED_Conversations: Convo10 initialized to " + Convo10)
     EndIf
 EndFunction

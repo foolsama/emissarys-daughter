@@ -1,19 +1,18 @@
-Scriptname fSSEED_AlenaweAliasObserves extends ReferenceAlias  
+Scriptname fSSEED_AlenaweAliasObserves extends ReferenceAlias
 
-Event OnCombatEnter()
-	BeginObservedCombat()
+fSSEED_PlayerBehaviorScript Property Tracker Auto
+
+Event OnCombatStateChanged(Actor akTarget, Int aeCombatState)
+
+	If aeCombatState == 1
+		If !Tracker.ObservingCombat
+			Tracker.BeginObservedCombat()
+		EndIf
+
+	ElseIf aeCombatState == 0
+		If Tracker.ObservingCombat
+			Tracker.EndObservedCombat()
+		EndIf
+	EndIf
+
 EndEvent
-
-Event OnCombatStop()
-	;stop observing
-EndEvent
-
-function BeginObservedCombat()
- ;modest update, maybe once every 2 seconds
- ;Health below 30%   ? OverextensionCount
- ;Magicka below 20%  ? OvercastCount
- ;Stamina below 20%  ? ExhaustionCount
- ;Entered sneaking but lost concealment early ? ExposureCount
- ;Used two or more combat categories ? AdaptationCount
-
-endFunction

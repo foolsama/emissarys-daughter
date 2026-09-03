@@ -6,8 +6,8 @@ Scriptname fSSEED_MajQ1_TIF_CourierHandOff Extends TopicInfo Hidden
 Function Fragment_1(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-ObjectReference LetterRef = Letter.getRef()
-Game.GetPlayer().AddItem(LetterRef)
+;ObjectReference LetterRef = Letter.getRef()
+;Game.GetPlayer().AddItem(LetterRef)
 ;END CODE
 EndFunction
 ;END FRAGMENT

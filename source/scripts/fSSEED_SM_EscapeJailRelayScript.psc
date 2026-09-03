@@ -18,5 +18,6 @@ Event OnStoryEscapeJail(Location akLocation, Form akCrimeGroup)
 	endif
 
 	tracker.HandleStoryEscapeJailEvent(akLocation, akCrimeGroup)
+	; Story Manager restarts this quest on the next matching event; stopping here just resets it.
 	Stop()
 EndEvent

@@ -24,3 +24,5 @@ EndFunction
 Quest Property conv  Auto  
 
 
+
+Quest Property FindBooks  Auto  

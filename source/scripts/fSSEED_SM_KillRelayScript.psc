@@ -30,5 +30,6 @@ Event OnStoryKillActor(ObjectReference akVictim, ObjectReference akKiller, Locat
 	endif
 
 	tracker.HandleStoryKillEvent(akVictim, akKiller, akLocation, aiCrimeStatus, aiRelationshipRank)
+	; Story Manager restarts this quest on the next matching event; stopping here just resets it.
 	Stop()
 EndEvent

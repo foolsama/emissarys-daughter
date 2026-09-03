@@ -18,6 +18,7 @@ GlobalVariable Property StabilityAdjusted Auto
 GlobalVariable Property StabilityTier Auto
 GlobalVariable Property CWPlayerAllegiance Auto
 GlobalVariable Property PostLocation Auto
+fSSEED_PlayerBehaviorScript Property PlayerBehavior Auto
 Quest Property MissionBegins Auto
 Quest Property MQ104  Auto
 Quest Property Seeker Auto
@@ -317,7 +318,7 @@ Function DismissAlenawe()
     ; called when dismissing Alenawe
     Location homeLoc = GetPostLocationFromGV()
     ObjectReference marker = GetPostMarkerFromGV()
-
+    PlayerBehavior.PauseBehaviorTracking()
     if homeLoc == None
         fSSEED_LocationTracker tracker = GetTracker()
         if tracker

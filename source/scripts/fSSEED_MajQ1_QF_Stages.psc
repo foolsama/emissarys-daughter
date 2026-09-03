@@ -2,9 +2,24 @@
 ;NEXT FRAGMENT INDEX 19
 Scriptname fSSEED_MajQ1_QF_Stages Extends Quest Hidden
 
+;BEGIN ALIAS PROPERTY Player
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Player Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY HabitationCenterMarker
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_HabitationCenterMarker Auto
+;END ALIAS PROPERTY
+
 ;BEGIN ALIAS PROPERTY Letter
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_Letter Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Leader
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Leader Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Habitation
@@ -12,19 +27,24 @@ ReferenceAlias Property Alias_Letter Auto
 LocationAlias Property Alias_Habitation Auto
 ;END ALIAS PROPERTY
 
+;BEGIN ALIAS PROPERTY Diary
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Diary Auto
+;END ALIAS PROPERTY
+
 ;BEGIN ALIAS PROPERTY Mine
 ;ALIAS PROPERTY TYPE LocationAlias
 LocationAlias Property Alias_Mine Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY BossChest
+;BEGIN ALIAS PROPERTY Alenawe
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_BossChest Auto
+ReferenceAlias Property Alias_Alenawe Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY HabitationCenterMarker
+;BEGIN ALIAS PROPERTY SponsorNote
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_HabitationCenterMarker Auto
+ReferenceAlias Property Alias_SponsorNote Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY QuestGiver
@@ -42,9 +62,14 @@ ReferenceAlias Property Alias_CourierHome Auto
 ReferenceAlias Property Alias_MapMarker Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY Alenawe
+;BEGIN ALIAS PROPERTY Courier
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Alenawe Auto
+ReferenceAlias Property Alias_Courier Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY BossChest
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_BossChest Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Ledger
@@ -52,34 +77,9 @@ ReferenceAlias Property Alias_Alenawe Auto
 ReferenceAlias Property Alias_Ledger Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY Courier
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Courier Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Diary
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Diary Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY SponsorNote
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_SponsorNote Auto
-;END ALIAS PROPERTY
-
 ;BEGIN ALIAS PROPERTY MookChest
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_MookChest Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Player
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Player Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Leader
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Leader Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN FRAGMENT Fragment_14
@@ -87,15 +87,16 @@ Function Fragment_14()
 ;BEGIN CODE
 Float Days = GameDaysPassed.GetValue()
 MajQ1DaysPassed.SetValue(Days)
+Convo3B.SetValue(30)
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_7
-Function Fragment_7()
+;BEGIN FRAGMENT Fragment_5
+Function Fragment_5()
 ;BEGIN CODE
-;Note read, start PD1_FG
-FGScene.Start()
+;Set stage, initialize aliases
+RegisterForUpdate(10)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -124,21 +125,10 @@ EndIf
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
+;BEGIN FRAGMENT Fragment_12
+Function Fragment_12()
 ;BEGIN CODE
-;Note discussed. Set up radiant location
-Alias_Courier.getReference().moveto(Alias_CourierHome.getReference())
-SetObjectiveDisplayed(15)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_5
-Function Fragment_5()
-;BEGIN CODE
-;Set stage, initialize aliases
-RegisterForUpdate(10)
+;Alenawe wandered off and needs prompting
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -159,10 +149,11 @@ EndIf
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_12
-Function Fragment_12()
+;BEGIN FRAGMENT Fragment_7
+Function Fragment_7()
 ;BEGIN CODE
-;Alenawe wandered off and needs prompting
+;Note read, start PD1_FG
+FGScene.Start()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -173,6 +164,16 @@ Function Fragment_4()
 ;diary read. Shut off objective, enable Alenawe dialogue
 SetObjectiveCompleted(15)
 SetObjectiveDisplayed(60)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
+;BEGIN CODE
+;Note discussed. Set up radiant location
+Alias_Courier.getReference().moveto(Alias_CourierHome.getReference())
+SetObjectiveDisplayed(15)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -193,3 +194,7 @@ ObjectReference Property Bandit1  Auto
 ObjectReference Property Bandit2  Auto  
 
 GlobalVariable Property Playstyle  Auto  
+
+Quest Property Convo  Auto  
+
+GlobalVariable Property Convo3B  Auto  

@@ -1,0 +1,3499 @@
+{
+   "actor" : {
+      "hairColor" : 5328185,
+      "headTexture" : "Skyrim.esm|038A5F",
+      "weight" : 45
+   },
+   "bodyMorphs" : [
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Innieoutie"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastHeight"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "RibsMore_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LabiaNeat_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Labiapuffyness"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleLength"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LabiaTightUp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NipplePerkiness"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LabiaMorePuffyness_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "SlimThighs"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Labiaprotrude2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "7B Lower"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Labiaprotrude"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleMoreArms_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Labiaprotrudeback"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "CBPC"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Labiaspread"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LabiaCrumpled_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NipplePuffy_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsNewSHSymmetry"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "UNPHip_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LabiaBulgogi_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "WideWaistLine"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Vaginasize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "VaginaHole"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Clit"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NavelEven"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BigBelly"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ClitSwell_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Cutepuffyness"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastPerkiness"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "CrotchGap"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AnalLoose_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AnalPosition_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AnalTexPos_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastGravity2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "PushUp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AnalTexPosRe_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BigTorso"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BellyUnder_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "VanillaSSELo"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "7B Upper"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsPressed_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "VanillaSSEHi"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleDistance"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleDip"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AreolaSize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleInvert_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "OldBaseShape"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Breasts"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleShy_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastFlatness"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsSmall"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastFlatness2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsSmall2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Arms"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AreolaPull_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LegsThin"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "DoubleMelon"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleTip"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastCleavage"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsTogether"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsConverage_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ChubbyWaist"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastWidth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastTopSlope"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleManga"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastCenter"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastCenterBig"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleThicc_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NipplePerkManga"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsFantasy"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleSquash1_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsNewSH"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastsGone"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastSideShape"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BreastUnderDepth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleSize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleSquash2_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleTipManga"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BellySideDownFat_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleTube_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleDown"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BellyFrontUpFat_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleUp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleCrease_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleCrumpled_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NippleBump_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "NipBGone"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Clavicle_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ChestDepth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ChestWidth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtDimples"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "SternumDepth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "SternumHeight"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "RibsProminance"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Waist"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ChubbyArms"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "WaistHeight"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Back"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BackArch"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BackValley_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BackWing_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Butt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BigButt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtSmall"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleButt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ChubbyButt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AppleCheeks"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtUnderFold"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "RoundAss"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtSaggy_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtPressed_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtNarrow_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtClassic"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtShape2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ButtCrack"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Groin"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "CrotchBack"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "7BLeg_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Thighs"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ThighOutsideThicc_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ThighInsideThicc_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ThighFBThicc_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ChubbyLegs"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LegShapeClassic"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "LegSpread_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "KneeHeight"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "KneeShape"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "KneeTogether_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "CalfSize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "CalfSmooth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "CalfFBThicc_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "FeetFeminine"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "AnkleSize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleAbs"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleMoreAbs_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleArms"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleLegs"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleMoreLegs_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MusclePecs"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ShoulderSmooth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "MuscleBack_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Hips"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "HipBone"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "HipUpperWidth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "HipCarved"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "HipForward"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "HipNarrow_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ForearmSize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ArmpitShape_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "WristSize"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ShoulderWidth"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "ShoulderTweak"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "Belly"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BellyFrontDownFat_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "BellySideUpFat_v2"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "TummyTuck"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "RaceMenuMorphsCBBE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "PregnancyBelly"
+      }
+   ],
+   "faceTextures" : [
+      {
+         "index" : 0,
+         "texture" : "Actors\\Character\\Female\\FemaleHead.dds"
+      },
+      {
+         "index" : 1,
+         "texture" : "Actors\\Character\\HighElfFemale\\FemaleHead_msn.dds"
+      },
+      {
+         "index" : 2,
+         "texture" : "Actors\\Character\\Female\\FemaleHead_sk.dds"
+      },
+      {
+         "index" : 3,
+         "texture" : "Actors\\Character\\Male\\BlankDetailmap.dds"
+      },
+      {
+         "index" : 7,
+         "texture" : "Actors\\Character\\Female\\FemaleHead_S.dds"
+      }
+   ],
+   "headParts" : [
+      {
+         "formId" : 333071,
+         "formIdentifier" : "Skyrim.esm|05150F",
+         "type" : 0
+      },
+      {
+         "formId" : 333342,
+         "formIdentifier" : "Skyrim.esm|05161E",
+         "type" : 1
+      },
+      {
+         "formId" : 967090,
+         "formIdentifier" : "Skyrim.esm|0EC1B2",
+         "type" : 2
+      },
+      {
+         "formId" : 318987901,
+         "formIdentifier" : "KS Hairdo's.esp|035E7D",
+         "type" : 3
+      },
+      {
+         "formId" : 333119,
+         "formIdentifier" : "Skyrim.esm|05153F",
+         "type" : 6
+      },
+      {
+         "formId" : 937377,
+         "formIdentifier" : "Skyrim.esm|0E4DA1",
+         "type" : 7
+      }
+   ],
+   "modNames" : [ "KS Hairdo's.esp", "Skyrim.esm" ],
+   "mods" : [
+      {
+         "index" : 0,
+         "name" : "Skyrim.esm"
+      },
+      {
+         "index" : 19,
+         "name" : "KS Hairdo's.esp"
+      }
+   ],
+   "morphs" : {
+      "custom" : [
+         {
+            "name" : "CME_BrowUpDown",
+            "value" : 0.009999999776482582
+         },
+         {
+            "name" : "CME_NoseSellionBackForward",
+            "value" : -0.1099999994039536
+         },
+         {
+            "name" : "CME_NoseSellionUpDown",
+            "value" : 0.009999999776482582
+         },
+         {
+            "name" : "NSK_NoseBridge",
+            "value" : 0.1599999964237213
+         },
+         {
+            "name" : "NSK_NoseSellionWidth",
+            "value" : -0.7599999904632568
+         },
+         {
+            "name" : "CME_AroundNoseBackForward",
+            "value" : 0.3100000023841858
+         },
+         {
+            "name" : "CME_MouthCornerUpDown",
+            "value" : -0.6100000143051147
+         },
+         {
+            "name" : "CME_MouthWidth",
+            "value" : 0.009999999776482582
+         },
+         {
+            "name" : "CME_EyesSize",
+            "value" : 0.4099999964237213
+         },
+         {
+            "name" : "CME_EyesSlope",
+            "value" : 0.5699999928474426
+         },
+         {
+            "name" : "CME_EyeballInOut",
+            "value" : 1.5
+         },
+         {
+            "name" : "RANs_ForeheadBackForward",
+            "value" : 0.2599999904632568
+         },
+         {
+            "name" : "CME_NoseSellionWidth",
+            "value" : -0.3100000023841858
+         },
+         {
+            "name" : "CME_NoseBackForward",
+            "value" : -0.5099999904632568
+         },
+         {
+            "name" : "CME_EyesUpDown",
+            "value" : -1.169999957084656
+         },
+         {
+            "name" : "CME_CheeksWidth",
+            "value" : 0.1599999964237213
+         },
+         {
+            "name" : "CME_EarUpDown",
+            "value" : -0.2599999904632568
+         },
+         {
+            "name" : "CME_CheeksBlow",
+            "value" : 0.4099999964237213
+         },
+         {
+            "name" : "CME_JawBackForward",
+            "value" : -0.1099999994039536
+         },
+         {
+            "name" : "ECE_NoseBridgeWidth",
+            "value" : -0.009999999776482582
+         },
+         {
+            "name" : "CME_NoseUpDown",
+            "value" : -0.5600000023841858
+         },
+         {
+            "name" : "CME_CheeksUpDown",
+            "value" : -0.6100000143051147
+         },
+         {
+            "name" : "CME_CheeksBoneInOut",
+            "value" : -0.1599999964237213
+         },
+         {
+            "name" : "CME_UpperEyesHeight",
+            "value" : -0.2599999904632568
+         },
+         {
+            "name" : "CME_EyesHeight",
+            "value" : -0.009999999776482582
+         }
+      ],
+      "default" : {
+         "morphs" : [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            -1,
+            0.300000011920929,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0.1000000014901161,
+            -0.1000000014901161,
+            0,
+            3.402823466385289e+38
+         ],
+         "presets" : [ 20, 4294967295, 9, 13 ]
+      },
+      "sculpt" : [
+         {
+            "data" : [
+               [ 0, 915, -2524, 3269 ],
+               [ 1, 545, -2533, 3412 ],
+               [ 2, 942, -2507, 3516 ],
+               [ 3, -908, -2548, 3521 ],
+               [ 4, -637, -2545, 3421 ],
+               [ 5, -524, -2544, 3420 ],
+               [ 6, 0, -2538, 3420 ],
+               [ 7, 526, -2533, 3419 ],
+               [ 8, 638, -2531, 3419 ],
+               [ 9, 907, -2528, 3419 ],
+               [ 10, 1127, -2526, 3158 ],
+               [ 11, 381, -2102, 1184 ],
+               [ 12, 1274, -2503, 3416 ],
+               [ 13, -1122, -2550, 3161 ],
+               [ 14, -355, -2128, 1187 ],
+               [ 15, -354, -2198, 1200 ],
+               [ 16, -885, -2569, 3423 ],
+               [ 17, -1272, -2573, 3424 ],
+               [ 18, 1127, -2526, 3158 ],
+               [ 19, 384, -2169, 1198 ],
+               [ 20, 381, -2103, 1284 ],
+               [ 21, 1274, -2503, 3516 ],
+               [ 22, 886, -2508, 3516 ],
+               [ 23, -935, -2570, 3523 ],
+               [ 24, 1, 2, 1634 ],
+               [ 25, -811, -789, 1039 ],
+               [ 26, -528, -86, 1635 ],
+               [ 27, 551, -75, 1634 ],
+               [ 28, 811, -771, 1037 ],
+               [ 29, -540, -2544, 3316 ],
+               [ 30, -916, -2543, 3171 ],
+               [ 31, -1122, -2550, 3161 ],
+               [ 32, -1272, -2573, 3424 ],
+               [ 33, -355, -2128, 1187 ],
+               [ 34, -633, -2545, 3421 ],
+               [ 35, 634, -2531, 3419 ],
+               [ 36, 870, -2529, 3419 ],
+               [ 37, -872, -2547, 3421 ],
+               [ 38, -3221, -3313, 1400 ],
+               [ 39, -21, -785, 1324 ],
+               [ 40, 3235, -3306, 1405 ],
+               [ 41, -2, -2537, 3420 ],
+               [ 42, -2, -2313, 2971 ],
+               [ 43, 556, -2459, 1876 ],
+               [ 44, -556, -2471, 1878 ],
+               [ 45, 1, -2423, 3420 ],
+               [ 46, 407, -2537, 3339 ],
+               [ 47, 475, -2532, 3336 ],
+               [ 48, -1, -2536, 3419 ],
+               [ 49, 776, -2551, 3132 ],
+               [ 50, 719, -2531, 3211 ],
+               [ 51, 730, -2549, 3147 ],
+               [ 52, 1040, -2551, 3238 ],
+               [ 53, 1036, -2539, 3274 ],
+               [ 54, 1203, -2563, 3419 ],
+               [ 55, 1202, -2551, 3418 ],
+               [ 56, -983, -2532, 3261 ],
+               [ 57, -1124, -2522, 3415 ],
+               [ 58, -1124, -2512, 3413 ],
+               [ 59, -981, -2523, 3224 ],
+               [ 60, -741, -2649, 3158 ],
+               [ 61, -763, -2557, 3125 ],
+               [ 62, -416, -2535, 3328 ],
+               [ 63, -472, -2538, 3331 ],
+               [ 64, -529, -2540, 3258 ],
+               [ 65, 528, -2531, 3274 ],
+               [ 66, 526, -2531, 3268 ],
+               [ 67, -743, -2525, 3141 ],
+               [ 68, -719, -2540, 3209 ],
+               [ 69, -677, -2538, 3191 ],
+               [ 70, -528, -2539, 3260 ],
+               [ 71, 652, -2537, 3197 ],
+               [ 72, 784, -2645, 3162 ],
+               [ 73, -807, -2484, 3421 ],
+               [ 74, -715, -2483, 3421 ],
+               [ 75, -726, -2483, 3421 ],
+               [ 76, 732, -2468, 3419 ],
+               [ 77, 706, -2468, 3419 ],
+               [ 78, 815, -2467, 3419 ],
+               [ 79, -362, -2479, 3370 ],
+               [ 80, -408, -2480, 3414 ],
+               [ 81, -745, -2483, 3352 ],
+               [ 82, 758, -2467, 3347 ],
+               [ 83, 422, -2471, 3411 ],
+               [ 84, 368, -2471, 3366 ],
+               [ 85, -809, -2484, 3421 ],
+               [ 86, -506, -2481, 3420 ],
+               [ 87, -716, -2483, 3421 ],
+               [ 88, 710, -2468, 3419 ],
+               [ 89, 515, -2470, 3419 ],
+               [ 90, 816, -2467, 3419 ],
+               [ 91, -624, -2482, 3409 ],
+               [ 92, -726, -2483, 3421 ],
+               [ 93, 0, -2475, 3420 ],
+               [ 94, 1, -2475, 3420 ],
+               [ 95, 1, -2475, 3420 ],
+               [ 96, 0, -2475, 3420 ],
+               [ 97, -362, -2479, 3377 ],
+               [ 98, -362, -2479, 3388 ],
+               [ 99, 3, -2475, 3420 ],
+               [ 100, 3, -2475, 3420 ],
+               [ 101, 369, -2472, 3385 ],
+               [ 102, 370, -2471, 3374 ],
+               [ 103, 756, -2467, 3366 ],
+               [ 104, 0, -2475, 3420 ],
+               [ 105, 706, -2468, 3419 ],
+               [ 106, 732, -2468, 3419 ],
+               [ 107, -715, -2483, 3421 ],
+               [ 108, -716, -2483, 3421 ],
+               [ 109, 0, -2475, 3420 ],
+               [ 110, -743, -2483, 3370 ],
+               [ 111, -624, -2482, 3409 ],
+               [ 112, 637, -2469, 3406 ],
+               [ 113, 637, -2469, 3406 ],
+               [ 114, 3, -2475, 3420 ],
+               [ 115, 0, -2475, 3420 ],
+               [ 116, 710, -2468, 3419 ],
+               [ 117, 545, -2469, 3327 ],
+               [ 118, 586, -2483, 3243 ],
+               [ 119, 401, -2468, 3340 ],
+               [ 120, 657, -2478, 3216 ],
+               [ 121, 857, -2468, 3313 ],
+               [ 122, 1091, -2483, 3412 ],
+               [ 123, 1093, -2490, 3357 ],
+               [ 124, 911, -2504, 3143 ],
+               [ 125, 1149, -2480, 3416 ],
+               [ 126, 1158, -2497, 3419 ],
+               [ 127, -1074, -2473, 3416 ],
+               [ 128, -967, -2471, 3411 ],
+               [ 129, -988, -2460, 3353 ],
+               [ 130, -1085, -2453, 3414 ],
+               [ 131, -860, -2486, 3316 ],
+               [ 132, -923, -2494, 3143 ],
+               [ 133, -497, -2483, 3334 ],
+               [ 134, -553, -2467, 3246 ],
+               [ 135, -631, -2465, 3200 ],
+               [ 136, -387, -2477, 3330 ],
+               [ 137, 13, -2475, 3419 ],
+               [ 138, 6, 520, 3420 ],
+               [ 139, -490, -1583, 3389 ],
+               [ 140, 540, -1565, 3477 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\Mouth\\MouthHumanFChargen.tri",
+            "vertices" : 141
+         },
+         {
+            "data" : [
+               [ 407, 520, -3879, -1854 ],
+               [ 399, -1439, -106, -680 ],
+               [ 952, 365, -108, 1184 ],
+               [ 944, -1411, -1233, 1043 ],
+               [ 387, 0, 11, -385 ],
+               [ 948, 1078, -409, 1110 ],
+               [ 397, 540, 520, -3371 ],
+               [ 401, -13, 6, -341 ],
+               [ 956, 0, -87, 1430 ],
+               [ 13, 0, 0, -1 ],
+               [ 405, -53, 462, -2913 ],
+               [ 415, 1329, -362, -774 ],
+               [ 896, 8, -958, 1084 ],
+               [ 409, -195, 188, 1036 ],
+               [ 403, 6, -646, 2089 ],
+               [ 900, -631, -359, 2878 ],
+               [ 413, -937, -4, -916 ],
+               [ 487, -1762, -1581, 1706 ],
+               [ 904, -2475, 294, 1500 ],
+               [ 25, 0, 1, 0 ],
+               [ 481, 0, 8, 2 ],
+               [ 26, 0, 8, 2 ],
+               [ 27, 0, 6, 0 ],
+               [ 411, -806, 549, 287 ],
+               [ 28, 2160, 842, 972 ],
+               [ 908, -468, -932, 2865 ],
+               [ 29, 863, 2595, 1336 ],
+               [ 485, -705, 2379, -1694 ],
+               [ 30, 641, 2394, -1697 ],
+               [ 31, 1547, -258, -20 ],
+               [ 431, -8, 8, -392 ],
+               [ 32, 1791, -1539, 1702 ],
+               [ 848, -190, 16, 300 ],
+               [ 33, 861, -692, 1256 ],
+               [ 728, 2308, -2237, 2444 ],
+               [ 425, 468, 258, -1319 ],
+               [ 34, 2604, -2155, 2135 ],
+               [ 35, 1869, -2259, 1151 ],
+               [ 36, 0, 9, 2 ],
+               [ 37, -29, 12, -124 ],
+               [ 852, 6, 6, -388 ],
+               [ 38, -950, 3, -308 ],
+               [ 429, -76, -48, 243 ],
+               [ 732, 3383, 3883, -175 ],
+               [ 39, 381, 163, 581 ],
+               [ 40, -168, 179, 290 ],
+               [ 439, 0, 2, 5 ],
+               [ 41, -1159, 771, -653 ],
+               [ 856, -111, 1, 15 ],
+               [ 42, -147, 842, -388 ],
+               [ 433, -1523, -154, 1935 ],
+               [ 43, 8, -171, 4581 ],
+               [ 44, -663, 201, 3773 ],
+               [ 427, 190, 13, 296 ],
+               [ 45, -80, -11, -557 ],
+               [ 860, 0, 1, 5 ],
+               [ 46, 0, -3, -760 ],
+               [ 47, 151, -544, -4996 ],
+               [ 48, -1220, -339, -3512 ],
+               [ 49, 0, 13, -230 ],
+               [ 928, 293, -592, 976 ],
+               [ 50, -2637, -692, -3416 ],
+               [ 441, 0, 0, 1 ],
+               [ 51, -151, 11, -125 ],
+               [ 435, -300, 592, -1395 ],
+               [ 52, 0, 6, 1 ],
+               [ 932, 662, -316, 2921 ],
+               [ 53, 0, 5, 0 ],
+               [ 445, 0, 0, 2 ],
+               [ 54, 0, 1, 0 ],
+               [ 55, 0, 4, 0 ],
+               [ 391, 0, 21, -241 ],
+               [ 56, 0, 13, -451 ],
+               [ 936, -1430, -955, 2028 ],
+               [ 57, 0, 2, 0 ],
+               [ 385, -1770, -1958, 806 ],
+               [ 59, -405, 1157, -2889 ],
+               [ 443, 0, 2, 6 ],
+               [ 60, -43, 1963, -253 ],
+               [ 940, -1067, -436, 1125 ],
+               [ 61, -1950, 2945, 925 ],
+               [ 389, 0, 3, 10 ],
+               [ 62, -381, 3354, 2465 ],
+               [ 63, -1206, -92, 4590 ],
+               [ 64, -1231, 564, 2247 ],
+               [ 65, -1318, 292, 1795 ],
+               [ 457, 0, 1, 19 ],
+               [ 66, 517, 1786, 1074 ],
+               [ 67, -1596, 2646, -2642 ],
+               [ 68, -1481, -636, -226 ],
+               [ 69, 17, 642, 1376 ],
+               [ 70, -122, -560, -2027 ],
+               [ 71, -172, 1113, -2262 ],
+               [ 471, 0, 0, -1 ],
+               [ 78, -1314, -597, 1888 ],
+               [ 79, -1439, -1080, 2021 ],
+               [ 479, 0, 1, 0 ],
+               [ 801, 2048, -513, -516 ],
+               [ 80, -1920, 625, 152 ],
+               [ 960, -1081, -436, 1125 ],
+               [ 81, -1951, 510, 1649 ],
+               [ 82, -2548, 278, -3727 ],
+               [ 83, -1905, -413, -2338 ],
+               [ 805, 2298, -245, -2351 ],
+               [ 84, -2692, -17, -1203 ],
+               [ 964, 510, -259, 1412 ],
+               [ 85, -3336, 166, -2887 ],
+               [ 86, -370, -9526, -1702 ],
+               [ 87, -1392, -571, -731 ],
+               [ 809, 1802, -1899, 1088 ],
+               [ 88, -930, -531, 210 ],
+               [ 968, 5, -197, 1756 ],
+               [ 89, -255, -1421, 270 ],
+               [ 90, -789, -1238, 634 ],
+               [ 91, 346, -344, 1063 ],
+               [ 813, 0, 3, 10 ],
+               [ 92, 829, -745, 488 ],
+               [ 972, -1353, -634, 2511 ],
+               [ 93, -32, -1112, 186 ],
+               [ 94, -537, -726, 209 ],
+               [ 95, -1000, 222, 5260 ],
+               [ 495, 127, 846, -389 ],
+               [ 96, -892, 1253, 4450 ],
+               [ 912, 1868, -392, 2414 ],
+               [ 97, -1, 621, 3370 ],
+               [ 489, -2573, -2207, 2149 ],
+               [ 98, -717, 719, 3468 ],
+               [ 99, 8, -190, 5940 ],
+               [ 483, -2135, 917, 1150 ],
+               [ 100, -4746, 3272, 461 ],
+               [ 916, 8, -958, 1084 ],
+               [ 101, -4204, 3387, -947 ],
+               [ 493, 27, 12, -124 ],
+               [ 102, -163, -146, -2791 ],
+               [ 103, -2842, 2581, 278 ],
+               [ 503, 2644, -632, -3420 ],
+               [ 104, -1927, 1628, -1333 ],
+               [ 920, 293, -592, 976 ],
+               [ 105, -1987, -1, -3817 ],
+               [ 497, 163, 189, 241 ],
+               [ 106, -982, -209, 394 ],
+               [ 107, -832, 1723, 2480 ],
+               [ 491, 0, 8, 2 ],
+               [ 108, -663, -194, 813 ],
+               [ 924, 324, -283, 1557 ],
+               [ 109, 0, 36, 864 ],
+               [ 501, 0, 13, -230 ],
+               [ 110, -1232, 1043, -3838 ],
+               [ 111, 460, 528, -7216 ],
+               [ 511, 0, 3, 0 ],
+               [ 112, -311, 701, -7470 ],
+               [ 992, -468, -932, 2865 ],
+               [ 113, -1074, 507, -4387 ],
+               [ 505, 152, 13, 6 ],
+               [ 114, -674, -1280, 271 ],
+               [ 115, -536, -883, 424 ],
+               [ 499, 666, 217, 3773 ],
+               [ 116, -1115, -736, 168 ],
+               [ 117, -543, -75, 851 ],
+               [ 509, -1, 13, -452 ],
+               [ 118, 908, -1609, -784 ],
+               [ 119, 1428, -1293, -1357 ],
+               [ 120, 99, -496, -1632 ],
+               [ 121, -457, -1196, -629 ],
+               [ 122, -1306, -390, -1584 ],
+               [ 123, -1555, -823, -1046 ],
+               [ 507, 0, 1, 0 ],
+               [ 124, -2141, -609, -867 ],
+               [ 125, -2103, -955, -1001 ],
+               [ 453, 0, 0, 2 ],
+               [ 126, -292, -1377, -2717 ],
+               [ 127, -628, -856, -3136 ],
+               [ 785, 3680, 387, -2460 ],
+               [ 128, -86, -1897, -5274 ],
+               [ 314, -1525, -48, -3237 ],
+               [ 129, -342, -3591, -5472 ],
+               [ 130, -2799, 592, 2680 ],
+               [ 260, 0, 0, -1 ],
+               [ 131, -2522, 644, 3316 ],
+               [ 789, 359, -2315, -1802 ],
+               [ 132, -1845, 54, 2602 ],
+               [ 318, -114, -262, -4158 ],
+               [ 133, -1849, -434, 2419 ],
+               [ 134, -2474, -778, 2719 ],
+               [ 312, -632, -999, 551 ],
+               [ 135, -2542, -971, 2199 ],
+               [ 793, -66, -2182, -4266 ],
+               [ 136, -2277, 262, 2977 ],
+               [ 258, 713, -1568, -802 ],
+               [ 137, -2341, 765, 3177 ],
+               [ 138, -5, 602, 1672 ],
+               [ 139, 70, 357, 1661 ],
+               [ 797, 1267, -1757, -2253 ],
+               [ 140, -4, 502, 1597 ],
+               [ 141, 64, 171, 1596 ],
+               [ 142, -1138, 258, 1030 ],
+               [ 256, 0, 1, 0 ],
+               [ 143, -108, -307, 833 ],
+               [ 144, -1144, -364, 710 ],
+               [ 145, 62, -2604, -2174 ],
+               [ 146, -22, -1617, -3003 ],
+               [ 276, 277, 1958, -3628 ],
+               [ 147, 13, -1763, -3397 ],
+               [ 148, 34, -3692, -1905 ],
+               [ 149, -1580, -3479, -2070 ],
+               [ 150, -396, -3962, -1619 ],
+               [ 151, -490, -4037, -3239 ],
+               [ 873, -3, 1, 11 ],
+               [ 152, -867, -3692, -3410 ],
+               [ 274, 120, 1144, -1435 ],
+               [ 153, -331, -159, 389 ],
+               [ 154, -3, 176, 855 ],
+               [ 284, -1801, 1200, -1856 ],
+               [ 155, -707, -3073, -317 ],
+               [ 156, -3468, -2888, -386 ],
+               [ 278, -192, 1302, -3074 ],
+               [ 157, -326, -2509, -801 ],
+               [ 158, -600, -2288, 100 ],
+               [ 272, -34, 23, 250 ],
+               [ 159, 0, 10, 5 ],
+               [ 160, -1225, -427, -2766 ],
+               [ 976, -129, -1430, 2514 ],
+               [ 161, -4, -27, -3750 ],
+               [ 162, -280, -606, 945 ],
+               [ 292, -1595, -1268, 2616 ],
+               [ 163, 8, -958, 1084 ],
+               [ 821, 1441, -74, -682 ],
+               [ 164, 11, -1165, 1586 ],
+               [ 980, 174, -1411, 2542 ],
+               [ 165, -780, -1434, 1565 ],
+               [ 166, 4, -532, 1432 ],
+               [ 167, -924, -443, 1331 ],
+               [ 825, -479, -559, -2155 ],
+               [ 168, -3623, 1214, -4062 ],
+               [ 290, -298, -787, 1933 ],
+               [ 984, 1366, -619, 2504 ],
+               [ 169, -4258, 1376, -3902 ],
+               [ 170, -2190, -392, -2577 ],
+               [ 300, -1987, 2323, 537 ],
+               [ 171, -3739, 606, -2672 ],
+               [ 829, -525, -1042, 529 ],
+               [ 172, -771, 83, -3797 ],
+               [ 294, -1353, -627, 2511 ],
+               [ 988, 342, -1606, 2749 ],
+               [ 173, -590, -121, -3227 ],
+               [ 174, -666, 859, -7085 ],
+               [ 288, -1146, -1474, -930 ],
+               [ 175, -920, 510, -4536 ],
+               [ 769, 0, 3, 0 ],
+               [ 176, -1070, -675, -403 ],
+               [ 298, -2240, 370, -2644 ],
+               [ 177, -270, -601, 85 ],
+               [ 178, -630, 1392, -7350 ],
+               [ 308, -685, -783, -5903 ],
+               [ 179, -607, 82, -5989 ],
+               [ 773, -147, -833, -1108 ],
+               [ 180, -4, 1558, -6634 ],
+               [ 302, -442, 82, -4010 ],
+               [ 181, -1222, 1425, 1206 ],
+               [ 182, 5, 263, 6533 ],
+               [ 296, -2030, -2689, 1983 ],
+               [ 183, -956, -1621, -2838 ],
+               [ 777, 1305, 2411, -5996 ],
+               [ 184, -1493, -2712, -3360 ],
+               [ 306, -5071, -340, -3130 ],
+               [ 185, -355, -2265, -2753 ],
+               [ 186, -312, -1398, -2768 ],
+               [ 316, 1064, 654, -495 ],
+               [ 187, -50, 348, -5297 ],
+               [ 781, 4702, 35, -1715 ],
+               [ 188, -1470, -179, -1855 ],
+               [ 310, -2475, 295, 1500 ],
+               [ 189, 480, -2108, -1596 ],
+               [ 190, 197, -976, -1212 ],
+               [ 304, -2542, 2718, 981 ],
+               [ 191, -174, -2443, 4070 ],
+               [ 849, 450, -130, 525 ],
+               [ 192, 996, -2589, 407 ],
+               [ 378, -907, -395, -281 ],
+               [ 193, -1080, -1370, 1008 ],
+               [ 194, -2088, -1965, 2425 ],
+               [ 324, 634, -1118, -1007 ],
+               [ 195, -1411, -1233, 1043 ],
+               [ 853, 1329, 0, 1872 ],
+               [ 196, -1430, -952, 2027 ],
+               [ 382, -1965, -37, -3798 ],
+               [ 197, -435, 3707, -1398 ],
+               [ 198, -1368, 3016, -2388 ],
+               [ 376, -2043, -559, -512 ],
+               [ 199, -844, 1898, -1729 ],
+               [ 200, -973, 529, 1372 ],
+               [ 322, -2071, 663, 1176 ],
+               [ 332, -1780, -2123, 1646 ],
+               [ 326, -2557, 1320, 970 ],
+               [ 320, -388, 1208, -3060 ],
+               [ 207, -1743, 3719, -1720 ],
+               [ 929, 324, -283, 1557 ],
+               [ 208, -300, 592, -1395 ],
+               [ 330, 125, -1591, -1207 ],
+               [ 549, 873, 1275, 4458 ],
+               [ 340, -406, 119, -1163 ],
+               [ 933, 662, -316, 2921 ],
+               [ 334, -1142, -1138, -133 ],
+               [ 328, -963, 871, -858 ],
+               [ 937, -1411, -1233, 1043 ],
+               [ 338, 0, 4, 0 ],
+               [ 557, 947, -212, 447 ],
+               [ 348, -1595, 2460, -6055 ],
+               [ 941, -337, -118, 1194 ],
+               [ 342, 162, -361, -1115 ],
+               [ 545, -838, -728, 508 ],
+               [ 881, -502, -272, 1429 ],
+               [ 282, -686, -873, 285 ],
+               [ 356, -4657, -2579, -1315 ],
+               [ 885, -781, -580, 490 ],
+               [ 286, -1586, 43, -1468 ],
+               [ 229, 243, -1236, 893 ],
+               [ 230, 388, -543, 2524 ],
+               [ 280, -623, -612, 1298 ],
+               [ 231, 27, 644, -10064 ],
+               [ 889, -1849, -435, 2419 ],
+               [ 232, -708, 2707, -7262 ],
+               [ 233, -1743, 3719, -1720 ],
+               [ 234, -1087, 728, -8029 ],
+               [ 364, -318, -2323, -1716 ],
+               [ 235, -862, -1368, 1191 ],
+               [ 893, -316, -289, 1523 ],
+               [ 236, 0, 4, 22 ],
+               [ 358, -3626, 229, -2097 ],
+               [ 237, -1728, 1355, 1032 ],
+               [ 238, 76, 814, 1309 ],
+               [ 239, 0, 4, 269 ],
+               [ 833, 787, 760, 2088 ],
+               [ 240, 402, 961, -9594 ],
+               [ 362, -326, -2344, -1834 ],
+               [ 241, 491, 974, -5675 ],
+               [ 242, -560, 2948, -7255 ],
+               [ 372, -967, -1104, -2667 ],
+               [ 243, -411, -1204, 447 ],
+               [ 837, -752, 423, 12 ],
+               [ 244, 395, -1662, 3164 ],
+               [ 366, -2289, -397, 1544 ],
+               [ 245, -69, -497, 745 ],
+               [ 246, 1042, 272, 430 ],
+               [ 360, -615, -2011, -2855 ],
+               [ 247, 818, 13, 471 ],
+               [ 248, 695, 1210, -7141 ],
+               [ 370, -549, -550, -751 ],
+               [ 249, 330, 102, -3481 ],
+               [ 250, 0, 3, 20 ],
+               [ 380, -2032, -297, -2423 ],
+               [ 251, 1993, -1136, 228 ],
+               [ 845, -247, 78, 410 ],
+               [ 252, 1577, -2072, 1152 ],
+               [ 374, -1762, -1585, -372 ],
+               [ 253, 2114, -2382, 822 ],
+               [ 254, -406, 119, -1163 ],
+               [ 368, 88, -2168, -4184 ],
+               [ 255, 0, 5, 8 ],
+               [ 688, 0, 3, 19 ],
+               [ 257, 0, 3, 20 ],
+               [ 259, 494, -1279, -1129 ],
+               [ 692, -471, -1289, -1134 ],
+               [ 273, 205, -189, -139 ],
+               [ 275, 55, 1195, -4687 ],
+               [ 277, -1307, 1768, -2086 ],
+               [ 279, -1098, -973, 662 ],
+               [ 281, -897, -1244, 177 ],
+               [ 283, -1155, 417, -2177 ],
+               [ 285, -616, -452, 112 ],
+               [ 287, -1326, 68, -603 ],
+               [ 592, 57, -1622, -3043 ],
+               [ 289, -1726, 298, -1614 ],
+               [ 291, -1011, -2219, 1955 ],
+               [ 596, 342, -140, 401 ],
+               [ 293, -1317, -1147, 2538 ],
+               [ 295, -1146, -1813, 1139 ],
+               [ 600, 293, -592, 974 ],
+               [ 297, -2477, -2091, 1823 ],
+               [ 299, -1754, 2427, -1161 ],
+               [ 604, 3590, 1277, -4075 ],
+               [ 301, -3878, 3427, -44 ],
+               [ 303, -934, 2846, -2060 ],
+               [ 672, -453, 966, -9558 ],
+               [ 305, -3508, -876, -3671 ],
+               [ 307, -3139, -1867, -2906 ],
+               [ 676, -376, -1658, 3156 ],
+               [ 309, -2633, 239, 2778 ],
+               [ 311, -1198, -1500, 506 ],
+               [ 680, -741, 1197, -7140 ],
+               [ 313, -417, -423, -2759 ],
+               [ 315, -672, 570, -1866 ],
+               [ 684, 11, -1119, 201 ],
+               [ 317, 350, 1003, 523 ],
+               [ 319, 34, 55, -2840 ],
+               [ 752, -41, 55, -2840 ],
+               [ 321, -556, 247, -3474 ],
+               [ 323, 575, -2105, -178 ],
+               [ 756, 1855, -1134, -824 ],
+               [ 325, -1839, -1175, -820 ],
+               [ 327, 329, -939, -341 ],
+               [ 760, -953, 1371, -3058 ],
+               [ 329, 866, 1332, -3173 ],
+               [ 331, -1439, -641, 325 ],
+               [ 764, -2397, 1586, 1537 ],
+               [ 333, 2289, 1579, 1472 ],
+               [ 335, 1663, -233, 73 ],
+               [ 704, -201, 21, 249 ],
+               [ 337, -36, 12, -416 ],
+               [ 339, 0, 1, 19 ],
+               [ 708, 310, 1541, -3364 ],
+               [ 341, -40, 410, -2090 ],
+               [ 343, -2068, -1013, -2940 ],
+               [ 553, 1908, 1624, -1310 ],
+               [ 344, -423, -1142, -3346 ],
+               [ 345, 0, 6, 0 ],
+               [ 712, 1115, -950, 659 ],
+               [ 346, 0, 1, 0 ],
+               [ 347, -2, -597, -4729 ],
+               [ 349, -1372, 1047, -3626 ],
+               [ 716, 610, -432, 120 ],
+               [ 350, 1509, -63, 1901 ],
+               [ 351, 1251, -486, 2040 ],
+               [ 355, -4621, -203, -1555 ],
+               [ 357, -1072, -527, -2216 ],
+               [ 359, -714, -1738, -1760 ],
+               [ 361, -1137, -2335, -2131 ],
+               [ 664, 633, 2655, -7216 ],
+               [ 363, -414, -1408, -1180 ],
+               [ 365, -2612, 590, 2431 ],
+               [ 668, -85, -818, -957 ],
+               [ 367, -854, -763, 750 ],
+               [ 369, -947, -1450, -2258 ],
+               [ 736, 3060, -820, -3666 ],
+               [ 371, -1344, -1790, -2262 ],
+               [ 373, -1570, -1332, -194 ],
+               [ 740, 2631, 248, 2966 ],
+               [ 375, -1961, -1078, -580 ],
+               [ 377, -1348, 1176, -2548 ],
+               [ 744, 1243, -1462, 763 ],
+               [ 379, -2879, -370, -3335 ],
+               [ 381, -630, -551, 129 ],
+               [ 748, -372, 1010, 527 ],
+               [ 383, -591, 2433, -4515 ],
+               [ 384, -1657, 108, -1852 ],
+               [ 388, -2, 27, -238 ],
+               [ 533, 1915, 646, 6 ],
+               [ 390, 0, 3, 11 ],
+               [ 537, 2699, 25, -1114 ],
+               [ 396, 695, 506, -8483 ],
+               [ 541, 554, -9504, -1711 ],
+               [ 398, 842, -364, 1434 ],
+               [ 400, -1151, -163, -105 ],
+               [ 609, 872, 547, -4546 ],
+               [ 402, 0, 2, 11 ],
+               [ 404, 392, -205, -2762 ],
+               [ 613, -114, 1468, -6569 ],
+               [ 406, 61, -603, 610 ],
+               [ 408, 579, -1064, 527 ],
+               [ 617, 1744, -1706, -2922 ],
+               [ 410, -815, 737, 2085 ],
+               [ 412, -1581, 555, -345 ],
+               [ 621, 2870, 4, -1459 ],
+               [ 414, 781, 213, -171 ],
+               [ 416, 1024, -781, -1038 ],
+               [ 561, 1052, 453, -4385 ],
+               [ 417, 533, -217, -354 ],
+               [ 720, 1292, -13, 227 ],
+               [ 420, 0, -1, 0 ],
+               [ 565, 549, -871, 422 ],
+               [ 724, 1366, -614, 2504 ],
+               [ 422, 247, 81, 408 ],
+               [ 423, 283, -132, 1017 ],
+               [ 424, 89, 3, 15 ],
+               [ 569, -882, -1629, -782 ],
+               [ 426, 38, 8, -13 ],
+               [ 428, -446, -140, 525 ],
+               [ 573, 1263, -422, -1641 ],
+               [ 430, 13, -6, 0 ],
+               [ 432, 3, 2, 12 ],
+               [ 513, 276, 3323, 2380 ],
+               [ 434, -1813, -864, 1382 ],
+               [ 517, 1226, 592, 2244 ],
+               [ 521, 1111, -359, -325 ],
+               [ 444, 0, 3, 10 ],
+               [ 593, -9, -2610, -2206 ],
+               [ 597, 223, -2509, -900 ],
+               [ 601, 813, -1410, 1635 ],
+               [ 605, 2188, -321, -2582 ],
+               [ 673, -559, 939, -5455 ],
+               [ 677, 76, -495, 737 ],
+               [ 681, -717, -3, 473 ],
+               [ 685, -2066, -2427, 831 ],
+               [ 480, 0, 6, 1 ],
+               [ 625, -1056, -2142, -22 ],
+               [ 482, 0, 2, 0 ],
+               [ 484, -1547, -286, -23 ],
+               [ 629, 1001, 1901, -1706 ],
+               [ 486, -905, 2573, 1368 ],
+               [ 488, -1812, -2299, 1147 ],
+               [ 490, -795, -739, 1288 ],
+               [ 492, 949, 24, -310 ],
+               [ 494, -384, 154, 582 ],
+               [ 496, 1140, 798, -713 ],
+               [ 577, 540, -763, -5479 ],
+               [ 498, 79, -9, -557 ],
+               [ 500, -152, -547, -4995 ],
+               [ 581, 1850, 37, 2708 ],
+               [ 502, 1219, -315, -3514 ],
+               [ 504, 0, 6, 1 ],
+               [ 585, 2282, 325, 3069 ],
+               [ 506, 0, 5, 0 ],
+               [ 589, 113, -305, 785 ],
+               [ 508, 0, 4, 0 ],
+               [ 512, 360, 1109, -2889 ],
+               [ 514, 1554, 2949, 679 ],
+               [ 515, 141, 1860, -507 ],
+               [ 516, 1317, 320, 1791 ],
+               [ 518, 1219, -65, 4585 ],
+               [ 519, -722, 1901, 1030 ],
+               [ 520, -328, 994, 743 ],
+               [ 522, 1300, 2846, -2641 ],
+               [ 523, 146, 1117, -2291 ],
+               [ 524, 128, -558, -2027 ],
+               [ 530, -1, 0, 0 ],
+               [ 531, 1347, -551, 1832 ],
+               [ 532, 1949, 567, 1601 ],
+               [ 534, 1456, -1060, 1973 ],
+               [ 535, 2126, 414, -3767 ],
+               [ 536, 3325, 234, -2903 ],
+               [ 538, 1725, -366, -2342 ],
+               [ 539, 925, -507, 208 ],
+               [ 540, 1389, -537, -731 ],
+               [ 542, 281, -1417, 271 ],
+               [ 543, 811, -1220, 633 ],
+               [ 544, 37, -1109, 188 ],
+               [ 546, -355, -348, 1078 ],
+               [ 547, 522, -710, 206 ],
+               [ 548, 1005, 244, 5258 ],
+               [ 550, 712, 735, 3465 ],
+               [ 551, 4594, 3316, 375 ],
+               [ 552, 3820, 3684, -1025 ],
+               [ 554, 2814, 2660, 337 ],
+               [ 555, -17, 130, -2683 ],
+               [ 556, 1860, 20, -3728 ],
+               [ 558, 679, -190, 823 ],
+               [ 559, 802, 1742, 2488 ],
+               [ 560, 1202, 1044, -3836 ],
+               [ 562, 22, 602, -7414 ],
+               [ 563, -432, 520, -7179 ],
+               [ 564, 697, -1271, 270 ],
+               [ 566, 917, -1225, 175 ],
+               [ 567, 534, -61, 849 ],
+               [ 568, 1123, -710, 186 ],
+               [ 570, 475, -1186, -631 ],
+               [ 571, -121, -527, -1641 ],
+               [ 572, -1419, -1345, -1360 ],
+               [ 574, 2115, -910, -1005 ],
+               [ 575, 2146, -567, -870 ],
+               [ 576, 1477, -877, -1383 ],
+               [ 578, 893, -839, -3138 ],
+               [ 579, 2797, 653, 2678 ],
+               [ 580, 1868, -392, 2414 ],
+               [ 582, 2521, 695, 3556 ],
+               [ 583, 2496, -719, 2997 ],
+               [ 584, 2336, 812, 3398 ],
+               [ 586, 2568, -912, 2412 ],
+               [ 587, -75, 356, 1659 ],
+               [ 588, -66, 168, 1577 ],
+               [ 590, 1133, 285, 938 ],
+               [ 591, 1183, -337, 608 ],
+               [ 594, 1162, -3381, -2527 ],
+               [ 595, 782, -3265, -3247 ],
+               [ 598, 2206, -2670, -311 ],
+               [ 599, 1230, -398, -2771 ],
+               [ 602, 937, -417, 1395 ],
+               [ 603, 4221, 1474, -3908 ],
+               [ 606, 572, -194, -3224 ],
+               [ 607, 788, -138, -3840 ],
+               [ 608, 3721, 708, -2673 ],
+               [ 610, 357, 835, -7007 ],
+               [ 611, 1084, -653, -408 ],
+               [ 612, 418, 1284, -7183 ],
+               [ 614, 632, 182, -5994 ],
+               [ 615, 1199, 1449, 1206 ],
+               [ 616, 1333, -1727, -2863 ],
+               [ 618, 229, 682, -5417 ],
+               [ 619, 311, -1218, -1267 ],
+               [ 620, -283, -2098, -1557 ],
+               [ 622, 977, -1787, 3062 ],
+               [ 623, 1907, -1936, 1755 ],
+               [ 624, 579, -734, 501 ],
+               [ 626, 1460, -921, 2028 ],
+               [ 627, 1443, -1201, 1037 ],
+               [ 628, -54, 4025, -1245 ],
+               [ 630, 1009, 3343, -2495 ],
+               [ 631, 971, 554, 1214 ],
+               [ 638, 1436, 3998, -5904 ],
+               [ 641, -70, 574, -73 ],
+               [ 642, 1436, 3998, -5904 ],
+               [ 643, 725, 2877, -6480 ],
+               [ 662, -365, -555, 2527 ],
+               [ 663, -215, -1240, 893 ],
+               [ 665, 837, -1377, 1138 ],
+               [ 666, 0, 5, 22 ],
+               [ 667, 0, 4, 269 ],
+               [ 669, -512, 34, 701 ],
+               [ 670, -222, 932, -6972 ],
+               [ 671, -165, 712, -9661 ],
+               [ 674, 424, -1200, 431 ],
+               [ 675, 480, 2937, -7276 ],
+               [ 678, -1097, 250, 432 ],
+               [ 679, -346, 152, -3474 ],
+               [ 682, -1974, -1174, 228 ],
+               [ 683, 0, 3, 19 ],
+               [ 686, -40, -397, 55 ],
+               [ 687, 0, 6, 6 ],
+               [ 689, 0, 1, 0 ],
+               [ 690, -1534, -2104, 1155 ],
+               [ 691, -683, -1585, -798 ],
+               [ 705, -152, 1142, -1433 ],
+               [ 706, -212, -195, -131 ],
+               [ 707, -91, 1227, -4585 ],
+               [ 709, 1104, 1400, -2312 ],
+               [ 710, -335, 1991, -3538 ],
+               [ 711, 637, -595, 1293 ],
+               [ 713, 688, -879, 276 ],
+               [ 714, 1197, 792, -1877 ],
+               [ 715, 1578, 1023, -1645 ],
+               [ 717, 1580, 195, -1357 ],
+               [ 718, 1729, 377, -1604 ],
+               [ 719, 1275, -1571, -993 ],
+               [ 721, 319, -811, 1799 ],
+               [ 722, 957, -2143, 1992 ],
+               [ 723, 1609, -1206, 2705 ],
+               [ 725, 1342, -1131, 2541 ],
+               [ 726, 1717, -1431, 1562 ],
+               [ 727, 2475, -1963, 1800 ],
+               [ 729, 2094, 424, -2514 ],
+               [ 730, 1727, 2616, -1052 ],
+               [ 731, 1848, 2613, 624 ],
+               [ 733, 2613, 3205, 1074 ],
+               [ 734, 131, 3415, -2171 ],
+               [ 735, -100, 577, -3957 ],
+               [ 737, 3055, -1793, -2902 ],
+               [ 738, 5034, -237, -3121 ],
+               [ 739, 312, -796, -5959 ],
+               [ 741, 2494, 317, 1549 ],
+               [ 742, 414, -441, -2670 ],
+               [ 743, 656, -989, 652 ],
+               [ 745, 1487, -62, -2769 ],
+               [ 746, 165, 976, -1581 ],
+               [ 747, -1090, 591, -540 ],
+               [ 749, 132, -265, -4213 ],
+               [ 750, 510, 255, -3356 ],
+               [ 751, 354, 1285, -2884 ],
+               [ 753, 1746, 1010, 1204 ],
+               [ 754, -634, -1176, -1009 ],
+               [ 755, -536, -2118, -174 ],
+               [ 757, 2303, 1525, 983 ],
+               [ 758, -329, -998, -352 ],
+               [ 759, 809, 1103, -800 ],
+               [ 761, 1223, -443, 338 ],
+               [ 762, -191, -1507, -1067 ],
+               [ 763, 1354, -2350, 2117 ],
+               [ 765, 1275, -971, -31 ],
+               [ 766, -1659, -268, 79 ],
+               [ 768, -1, 11, -307 ],
+               [ 770, 11, -1118, 201 ],
+               [ 771, -40, -397, 55 ],
+               [ 772, 25, 419, -2097 ],
+               [ 774, 2294, -972, -2940 ],
+               [ 775, 776, -1015, -3265 ],
+               [ 776, 4, -597, -4729 ],
+               [ 778, 1238, 1127, -3710 ],
+               [ 779, -1236, -513, 2142 ],
+               [ 780, -1502, -100, 1936 ],
+               [ 782, 4134, -3024, -2231 ],
+               [ 783, 1432, -498, -2058 ],
+               [ 784, 1549, -1638, -1697 ],
+               [ 786, 807, -1997, -2658 ],
+               [ 787, 1086, -2213, -2104 ],
+               [ 788, 1225, -1192, -1176 ],
+               [ 790, 2605, 635, 2705 ],
+               [ 791, 2305, -348, 1791 ],
+               [ 792, 873, -741, 761 ],
+               [ 794, 317, -187, -606 ],
+               [ 795, 943, -1500, -2218 ],
+               [ 796, 776, -1116, -2705 ],
+               [ 798, 1582, -1276, -190 ],
+               [ 799, 1773, -1604, -376 ],
+               [ 800, 1976, -1040, -584 ],
+               [ 802, 957, -319, -285 ],
+               [ 803, 1224, 1329, -2551 ],
+               [ 804, 2823, -256, -3294 ],
+               [ 806, 606, -582, 164 ],
+               [ 807, 1573, -66, -3678 ],
+               [ 808, 257, 2414, -4475 ],
+               [ 810, 1643, 171, -1718 ],
+               [ 811, -1, 11, -385 ],
+               [ 812, 0, 27, -239 ],
+               [ 818, -724, 490, -8482 ],
+               [ 819, -599, 842, -3868 ],
+               [ 820, -832, -381, 1435 ],
+               [ 822, 1154, -136, -124 ],
+               [ 823, 12, 8, -347 ],
+               [ 824, 0, 3, 10 ],
+               [ 826, 36, 464, -2916 ],
+               [ 827, -46, -613, 611 ],
+               [ 828, -436, -4363, -1851 ],
+               [ 830, 779, -562, 469 ],
+               [ 831, 1078, -409, 1110 ],
+               [ 832, 197, 203, 1039 ],
+               [ 834, 794, 564, 283 ],
+               [ 835, 1566, 581, -280 ],
+               [ 836, 934, 15, -917 ],
+               [ 838, -1208, -104, -692 ],
+               [ 839, -952, -639, -1012 ],
+               [ 840, -505, -106, -335 ],
+               [ 843, 0, -1, 0 ],
+               [ 846, -290, -134, 1018 ],
+               [ 847, -490, 248, -1266 ],
+               [ 850, -12, -6, 0 ],
+               [ 851, 77, -46, 243 ],
+               [ 854, 1932, -803, 1191 ],
+               [ 855, -70, 574, -73 ],
+               [ 862, 0, 0, 1 ],
+               [ 863, 0, 2, 10 ],
+               [ 864, 0, 2, 6 ],
+               [ 866, 0, 0, 2 ],
+               [ 872, -39, 8, -13 ],
+               [ 879, -1, 30, 1082 ],
+               [ 880, 5, -197, 1756 ],
+               [ 882, -179, -498, 346 ],
+               [ 883, 1, -328, 701 ],
+               [ 884, -1081, -436, 1125 ],
+               [ 886, 190, -494, 328 ],
+               [ 887, 510, -259, 1412 ],
+               [ 888, -2799, 592, 2681 ],
+               [ 890, -631, -359, 2878 ],
+               [ 891, 8, -958, 1084 ],
+               [ 892, -280, -606, 945 ],
+               [ 894, -316, -289, 1523 ],
+               [ 895, 6, -701, 1635 ],
+               [ 897, -2475, 294, 1500 ],
+               [ 898, -2799, 592, 2681 ],
+               [ 899, -631, -359, 2878 ],
+               [ 901, -316, -289, 1523 ],
+               [ 902, -2475, 294, 1500 ],
+               [ 903, -280, -606, 945 ],
+               [ 905, -316, -289, 1523 ],
+               [ 906, -1849, -435, 2419 ],
+               [ 907, -1353, -634, 2511 ],
+               [ 909, -468, -932, 2865 ],
+               [ 910, -631, -359, 2878 ],
+               [ 911, -1849, -434, 2419 ],
+               [ 913, 2797, 653, 2678 ],
+               [ 914, 662, -316, 2921 ],
+               [ 915, 293, -592, 976 ],
+               [ 917, 6, -701, 1635 ],
+               [ 918, 6, -701, 1635 ],
+               [ 919, 324, -292, 1557 ],
+               [ 921, 2797, 653, 2678 ],
+               [ 922, 2493, 317, 1549 ],
+               [ 923, 324, -283, 1557 ],
+               [ 925, 662, -316, 2921 ],
+               [ 926, 2797, 653, 2678 ],
+               [ 927, 2493, 317, 1549 ],
+               [ 930, 1366, -619, 2504 ],
+               [ 931, 1868, -392, 2414 ],
+               [ 934, 487, -1048, 2834 ],
+               [ 935, 1366, -619, 2504 ],
+               [ 938, -308, -880, 2515 ],
+               [ 939, -1411, -1233, 1043 ],
+               [ 942, -337, -118, 1194 ],
+               [ 943, -308, -880, 2515 ],
+               [ 945, 1443, -1201, 1037 ],
+               [ 946, 1460, -921, 2028 ],
+               [ 947, 335, -875, 2507 ],
+               [ 949, 1443, -1201, 1037 ],
+               [ 950, 335, -875, 2507 ],
+               [ 951, 335, -875, 2507 ],
+               [ 953, 1091, -409, 1110 ],
+               [ 954, -502, -272, 1429 ],
+               [ 955, 5, -197, 1756 ],
+               [ 957, 0, -87, 1430 ],
+               [ 958, -361, -119, 1194 ],
+               [ 959, -502, -272, 1429 ],
+               [ 961, -502, -272, 1429 ],
+               [ 962, -361, -119, 1194 ],
+               [ 963, 5, -197, 1756 ],
+               [ 965, 365, -108, 1184 ],
+               [ 966, 365, -108, 1184 ],
+               [ 967, 0, -87, 1430 ],
+               [ 969, 510, -259, 1412 ],
+               [ 970, 1091, -409, 1110 ],
+               [ 971, 365, -108, 1184 ],
+               [ 973, -1430, -955, 2028 ],
+               [ 974, -308, -880, 2515 ],
+               [ 975, -308, -880, 2515 ],
+               [ 977, -1353, -634, 2511 ],
+               [ 978, 1460, -921, 2028 ],
+               [ 979, 1366, -619, 2504 ],
+               [ 981, 174, -1411, 2542 ],
+               [ 982, 335, -875, 2507 ],
+               [ 983, 1460, -921, 2028 ],
+               [ 985, 487, -1048, 2834 ],
+               [ 986, 342, -1606, 2749 ],
+               [ 987, 1366, -619, 2504 ],
+               [ 989, 174, -1411, 2542 ],
+               [ 990, -1353, -634, 2511 ],
+               [ 991, -334, -1577, 2846 ],
+               [ 993, -1353, -634, 2511 ],
+               [ 994, -129, -1430, 2514 ],
+               [ 995, -334, -1577, 2846 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\FemaleHeadCharGen.tri",
+            "vertices" : 996
+         },
+         {
+            "host" : "KS Hairdo's\\Rosie Cloud.tri",
+            "vertices" : 4294967295
+         },
+         {
+            "host" : "KS Hairdo's\\Rosie Cloud.tri",
+            "vertices" : 4294967295
+         },
+         {
+            "data" : [
+               [ 64, 0, 198, 36 ],
+               [ 399, 374, 79, 15 ],
+               [ 0, -462, 842, 89 ],
+               [ 1, -179, 390, 142 ],
+               [ 2, -650, 989, -129 ],
+               [ 3, -710, 1081, -610 ],
+               [ 4, -485, 910, -30 ],
+               [ 5, -234, 491, 163 ],
+               [ 397, -170, -33, 10 ],
+               [ 6, -266, 555, 181 ],
+               [ 7, 343, 801, -146 ],
+               [ 71, -42, 168, -175 ],
+               [ 8, 274, 631, -638 ],
+               [ 72, -5, 50, -1 ],
+               [ 9, 550, 1021, -745 ],
+               [ 73, 10, 89, -53 ],
+               [ 10, 485, 910, -31 ],
+               [ 74, -121, 381, -276 ],
+               [ 11, 234, 491, 163 ],
+               [ 75, -89, 176, -531 ],
+               [ 395, 116, 9, 23 ],
+               [ 12, 89, 323, 40 ],
+               [ 76, 261, 59, 17 ],
+               [ 13, 121, 381, -276 ],
+               [ 77, 58, 9, -13 ],
+               [ 14, 476, 469, -1287 ],
+               [ 78, 179, 32, 11 ],
+               [ 15, 796, 898, -1251 ],
+               [ 79, 474, 85, 35 ],
+               [ 16, 578, 834, -1256 ],
+               [ 479, -63, 17, -9 ],
+               [ 801, 929, 620, 435 ],
+               [ 80, 674, 142, 44 ],
+               [ 896, 299, 75, -5 ],
+               [ 17, 710, 1081, -611 ],
+               [ 18, 351, 677, -875 ],
+               [ 19, 289, 427, -820 ],
+               [ 20, 873, 969, -658 ],
+               [ 21, 958, 653, -432 ],
+               [ 22, 634, 675, -165 ],
+               [ 23, 650, 989, -128 ],
+               [ 24, 901, 580, -1080 ],
+               [ 25, -701, 208, -4 ],
+               [ 26, -636, 134, 27 ],
+               [ 27, -828, 236, 2 ],
+               [ 28, -472, 182, -2 ],
+               [ 29, -421, 164, -9 ],
+               [ 30, -602, 178, -5 ],
+               [ 31, -513, 111, 18 ],
+               [ 431, 195, 36, -17 ],
+               [ 40, 326, 206, -717 ],
+               [ 856, 174, 53, 27 ],
+               [ 41, 61, 44, 47 ],
+               [ 433, 193, 36, -17 ],
+               [ 42, 226, 196, 61 ],
+               [ 43, 531, 211, -870 ],
+               [ 44, 705, 480, -1425 ],
+               [ 45, 150, 148, -408 ],
+               [ 435, 107, 20, -9 ],
+               [ 59, 42, 170, -174 ],
+               [ 60, -1, 197, -142 ],
+               [ 61, 89, 177, -531 ],
+               [ 62, -10, 89, -53 ],
+               [ 63, 5, 51, -1 ],
+               [ 81, 311, 84, 34 ],
+               [ 82, 21, 5, -1 ],
+               [ 83, 462, 842, 89 ],
+               [ 805, 588, 120, -6 ],
+               [ 84, 179, 390, 143 ],
+               [ 85, 266, 556, 181 ],
+               [ 477, -174, 53, 27 ],
+               [ 86, 73, 15, 13 ],
+               [ 88, -19, -6, -2 ],
+               [ 89, 316, 75, 44 ],
+               [ 90, 653, 212, 139 ],
+               [ 91, 644, 315, 229 ],
+               [ 475, 220, -13, 17 ],
+               [ 813, -160, -31, 6 ],
+               [ 92, 44, 41, 32 ],
+               [ 93, -128, 24, -12 ],
+               [ 94, -6, 1, 0 ],
+               [ 95, -15, 3, -1 ],
+               [ 98, -21, 4, -2 ],
+               [ 99, -150, 27, -13 ],
+               [ 100, -211, 234, 208 ],
+               [ 101, -40, 83, 109 ],
+               [ 102, -182, 270, 324 ],
+               [ 103, -372, 255, -82 ],
+               [ 503, -765, 128, 13 ],
+               [ 104, -501, 332, -80 ],
+               [ 105, -563, 441, 153 ],
+               [ 106, -104, 115, 122 ],
+               [ 501, -906, 147, 11 ],
+               [ 120, -351, 678, -876 ],
+               [ 121, -136, 231, -487 ],
+               [ 122, -140, 211, -664 ],
+               [ 123, -2, 214, -44 ],
+               [ 124, -2, 158, -216 ],
+               [ 125, -274, 632, -638 ],
+               [ 126, 168, 16, 27 ],
+               [ 127, 50, -2, 17 ],
+               [ 785, -17, -12, -4 ],
+               [ 128, -238, -44, 13 ],
+               [ 314, -955, 162, -3 ],
+               [ 129, 176, 18, 27 ],
+               [ 130, 656, 122, 41 ],
+               [ 260, -268, -49, 8 ],
+               [ 318, -876, 154, -4 ],
+               [ 312, 851, 259, 32 ],
+               [ 258, -220, -13, 17 ],
+               [ 138, -365, 212, 186 ],
+               [ 268, 205, 38, -19 ],
+               [ 139, -933, 685, 249 ],
+               [ 797, -597, 216, 8 ],
+               [ 140, -388, 341, 117 ],
+               [ 262, -1, 2, 13 ],
+               [ 141, -958, 653, -432 ],
+               [ 142, -634, 675, -164 ],
+               [ 771, -29, 75, 46 ],
+               [ 256, -274, -31, 12 ],
+               [ 143, -29, 108, 64 ],
+               [ 144, 52, -82, -11 ],
+               [ 266, -61, 8, 9 ],
+               [ 145, -332, 125, 175 ],
+               [ 146, -36, -47, 65 ],
+               [ 791, 526, 212, 104 ],
+               [ 147, -325, 115, 162 ],
+               [ 148, -809, 428, 347 ],
+               [ 270, 200, 37, -18 ],
+               [ 149, -929, 620, 436 ],
+               [ 150, 38, -109, 17 ],
+               [ 264, 170, -33, 10 ],
+               [ 151, -1144, 867, 432 ],
+               [ 873, -205, 38, -19 ],
+               [ 152, -1130, 758, 512 ],
+               [ 274, 128, 24, -12 ],
+               [ 153, -608, 471, 313 ],
+               [ 154, -938, 574, -221 ],
+               [ 799, -166, 67, 47 ],
+               [ 155, -738, 300, -772 ],
+               [ 156, -531, 211, -870 ],
+               [ 278, 6, 1, 0 ],
+               [ 157, -705, 480, -1425 ],
+               [ 158, -901, 580, -1080 ],
+               [ 272, 248, 46, -23 ],
+               [ 159, -326, 206, -718 ],
+               [ 817, 421, 164, -9 ],
+               [ 160, -62, 44, 46 ],
+               [ 161, -150, 148, -409 ],
+               [ 162, -476, 469, -1287 ],
+               [ 807, 774, 140, -4 ],
+               [ 292, 973, 156, 5 ],
+               [ 163, -226, 196, 61 ],
+               [ 821, 166, 67, 47 ],
+               [ 164, -81, 39, -245 ],
+               [ 165, 0, -134, -62 ],
+               [ 166, -1, 124, 95 ],
+               [ 167, -289, 427, -820 ],
+               [ 168, -19, -125, -81 ],
+               [ 290, 610, 92, 8 ],
+               [ 169, -158, 244, 321 ],
+               [ 170, -26, 100, 55 ],
+               [ 815, 701, 208, -4 ],
+               [ 300, 31, 6, -3 ],
+               [ 171, -6, -38, 1 ],
+               [ 172, -77, 161, 183 ],
+               [ 173, 211, 234, 208 ],
+               [ 174, 40, 83, 110 ],
+               [ 803, 36, -47, 65 ],
+               [ 288, 876, 154, -4 ],
+               [ 175, 104, 115, 122 ],
+               [ 769, 0, 40, 52 ],
+               [ 176, 563, 441, 152 ],
+               [ 177, 501, 332, -80 ],
+               [ 178, 370, 255, -82 ],
+               [ 308, 916, 228, 26 ],
+               [ 179, 182, 270, 324 ],
+               [ 180, -1, 1, 2 ],
+               [ 302, 13, 4, 1 ],
+               [ 181, -99, 71, 51 ],
+               [ 182, -601, 390, 279 ],
+               [ 811, 545, 89, 17 ],
+               [ 183, -44, 41, 32 ],
+               [ 184, -934, 398, 272 ],
+               [ 306, -374, 79, 15 ],
+               [ 185, -644, 315, 229 ],
+               [ 186, -1031, 553, 397 ],
+               [ 831, 906, 147, 11 ],
+               [ 316, -610, 92, 8 ],
+               [ 187, -714, 318, 261 ],
+               [ 188, 17, -12, -4 ],
+               [ 310, 636, 134, 27 ],
+               [ 189, -29, 4, -17 ],
+               [ 190, -72, 8, -22 ],
+               [ 819, 291, 121, 72 ],
+               [ 304, 21, 4, -2 ],
+               [ 191, -58, 9, -13 ],
+               [ 192, -179, 32, 11 ],
+               [ 193, -50, -2, 17 ],
+               [ 194, 174, -33, -4 ],
+               [ 839, -554, 92, 10 ],
+               [ 195, -403, 106, 58 ],
+               [ 853, -167, -2, 18 ],
+               [ 196, -33, 9, 5 ],
+               [ 197, -316, 75, 44 ],
+               [ 198, -671, 182, 89 ],
+               [ 199, -717, 182, 66 ],
+               [ 857, 656, 111, 13 ],
+               [ 200, -311, 84, 34 ],
+               [ 201, -55, 17, 8 ],
+               [ 332, -269, 60, -4 ],
+               [ 203, -13, 4, 1 ],
+               [ 326, -344, 73, -5 ],
+               [ 208, 388, 341, 117 ],
+               [ 330, -378, 88, -6 ],
+               [ 209, 933, 685, 249 ],
+               [ 210, 365, 212, 186 ],
+               [ 855, -124, 4, 18 ],
+               [ 549, -77, -5, 17 ],
+               [ 340, 635, 104, -1 ],
+               [ 211, -52, -82, -12 ],
+               [ 212, 29, 108, 64 ],
+               [ 334, -635, 104, -1 ],
+               [ 213, -73, 15, 13 ],
+               [ 214, -653, 212, 139 ],
+               [ 328, -320, 76, -5 ],
+               [ 215, 19, -6, -2 ],
+               [ 338, -424, 80, -4 ],
+               [ 217, -31, 6, -3 ],
+               [ 218, -21, 5, -1 ],
+               [ 219, -154, 27, -16 ],
+               [ 220, -261, 59, 17 ],
+               [ 550, 738, 300, -772 ],
+               [ 342, 344, 73, -5 ],
+               [ 221, -674, 142, 44 ],
+               [ 222, -474, 85, 35 ],
+               [ 336, -632, 115, -5 ],
+               [ 881, 81, 40, -245 ],
+               [ 356, -107, 20, -9 ],
+               [ 286, 954, 152, 2 ],
+               [ 354, -200, 36, -21 ],
+               [ 233, -226, 40, -26 ],
+               [ 234, -266, 49, -24 ],
+               [ 364, -873, 969, -657 ],
+               [ 235, -248, 46, -23 ],
+               [ 893, 0, 107, 39 ],
+               [ 236, -232, 41, -26 ],
+               [ 358, -195, 36, -17 ],
+               [ 352, -215, 38, -23 ],
+               [ 833, -40, 87, 102 ],
+               [ 362, -965, 160, -2 ],
+               [ 372, 26, 102, 57 ],
+               [ 244, -916, 228, 26 ],
+               [ 366, -29, 5, -2 ],
+               [ 245, -851, 259, 32 ],
+               [ 246, -656, 122, 41 ],
+               [ 360, -115, 21, -10 ],
+               [ 247, -168, 16, 27 ],
+               [ 248, -175, 18, 27 ],
+               [ 249, 238, -44, 13 ],
+               [ 250, 175, -13, 21 ],
+               [ 251, 190, -37, 13 ],
+               [ 252, 77, -5, 17 ],
+               [ 374, 5, -38, 0 ],
+               [ 253, -420, 78, 24 ],
+               [ 254, -163, 50, 30 ],
+               [ 368, -20, 3, -2 ],
+               [ 255, 272, -25, 21 ],
+               [ 688, 269, 60, -4 ],
+               [ 257, 29, 4, -17 ],
+               [ 259, -272, -25, 21 ],
+               [ 261, -174, -33, -4 ],
+               [ 263, -545, 89, 17 ],
+               [ 265, 160, -31, 6 ],
+               [ 267, -599, 93, 12 ],
+               [ 269, 92, 17, -8 ],
+               [ 271, 266, 49, -24 ],
+               [ 273, 150, 27, -13 ],
+               [ 275, 2, 0, 0 ],
+               [ 670, 678, 132, -6 ],
+               [ 277, 20, 3, -2 ],
+               [ 287, 955, 162, -3 ],
+               [ 289, 891, 144, 0 ],
+               [ 291, 599, 93, 12 ],
+               [ 686, 232, 41, -26 ],
+               [ 596, 29, 5, -2 ],
+               [ 301, 154, 27, -16 ],
+               [ 672, 449, 96, -6 ],
+               [ 305, -116, 9, 23 ],
+               [ 307, -52, 0, 19 ],
+               [ 309, 717, 182, 66 ],
+               [ 311, 828, 236, 2 ],
+               [ 690, 378, 88, -6 ],
+               [ 313, -954, 153, 2 ],
+               [ 315, -973, 156, 5 ],
+               [ 684, 200, 36, -21 ],
+               [ 317, -892, 144, 0 ],
+               [ 756, -343, 801, -146 ],
+               [ 327, -449, 96, -6 ],
+               [ 706, 33, 9, 5 ],
+               [ 760, -13, 32, 41 ],
+               [ 329, -493, 106, -6 ],
+               [ 331, -257, 65, -5 ],
+               [ 333, -525, 96, -4 ],
+               [ 335, -748, 122, 0 ],
+               [ 337, -466, 94, -5 ],
+               [ 339, 525, 96, -4 ],
+               [ 734, 0, 197, 200 ],
+               [ 708, 671, 182, 89 ],
+               [ 341, 424, 80, -4 ],
+               [ 343, 466, 94, -5 ],
+               [ 344, 632, 115, -5 ],
+               [ 345, 748, 122, 0 ],
+               [ 351, -252, 47, -23 ],
+               [ 353, -52, 13, -12 ],
+               [ 355, -234, 43, -21 ],
+               [ 357, -200, 37, -18 ],
+               [ 359, -193, 36, -17 ],
+               [ 361, -710, 132, -6 ],
+               [ 363, -678, 132, -6 ],
+               [ 758, -13, 39, 50 ],
+               [ 668, 710, 132, -6 ],
+               [ 365, -796, 898, -1251 ],
+               [ 736, -6, 143, 111 ],
+               [ 369, -33, 6, -3 ],
+               [ 371, 158, 244, 321 ],
+               [ 766, 6, 143, 113 ],
+               [ 740, 13, 39, 50 ],
+               [ 373, 77, 161, 183 ],
+               [ 744, 5, 12, 17 ],
+               [ 537, 99, 71, 51 ],
+               [ 396, -190, -37, 13 ],
+               [ 398, 52, 0, 19 ],
+               [ 400, 513, 111, 18 ],
+               [ 561, 714, 318, 261 ],
+               [ 724, 0, 1, 1 ],
+               [ 432, 115, 21, -10 ],
+               [ 434, 252, 47, -23 ],
+               [ 685, 52, 13, -12 ],
+               [ 476, 167, -2, 18 ],
+               [ 806, 488, 105, -6 ],
+               [ 478, 124, 4, 18 ],
+               [ 595, 33, 6, -3 ],
+               [ 502, -863, 142, 0 ],
+               [ 536, 1, 1, 2 ],
+               [ 538, 602, 390, 279 ],
+               [ 539, 608, 471, 314 ],
+               [ 546, -175, -13, 21 ],
+               [ 547, 163, 50, 30 ],
+               [ 548, 420, 78, 24 ],
+               [ 551, 937, 574, -222 ],
+               [ 559, 934, 398, 272 ],
+               [ 560, 1031, 553, 397 ],
+               [ 562, 809, 428, 347 ],
+               [ 563, 1130, 758, 512 ],
+               [ 614, -578, 834, -1256 ],
+               [ 615, -550, 1021, -744 ],
+               [ 658, 135, 232, -487 ],
+               [ 659, 140, 211, -663 ],
+               [ 669, 493, 106, -6 ],
+               [ 790, 788, 276, 116 ],
+               [ 671, 965, 160, -2 ],
+               [ 682, 215, 38, -23 ],
+               [ 683, 234, 43, -21 ],
+               [ 812, 61, 8, 9 ],
+               [ 687, 320, 76, -5 ],
+               [ 800, 332, 125, 175 ],
+               [ 689, 257, 65, -5 ],
+               [ 810, 1, 2, 13 ],
+               [ 693, -589, 120, -6 ],
+               [ 694, -774, 140, -4 ],
+               [ 695, -488, 105, -6 ],
+               [ 705, 403, 106, 58 ],
+               [ 707, 55, 17, 8 ],
+               [ 846, 1144, 867, 431 ],
+               [ 727, 11, 23, 32 ],
+               [ 840, -143, 46, 24 ],
+               [ 729, -5, 12, 17 ],
+               [ 733, 17, -129, -99 ],
+               [ 854, 63, 17, -9 ],
+               [ 735, 0, -106, -63 ],
+               [ 739, 13, 32, 41 ],
+               [ 743, 40, 87, 102 ],
+               [ 745, 29, 75, 46 ],
+               [ 746, 0, 1, 1 ],
+               [ 747, -11, 23, 32 ],
+               [ 757, -89, 323, 40 ],
+               [ 765, -17, -129, -98 ],
+               [ 886, -788, 276, 115 ],
+               [ 767, 19, -124, -80 ],
+               [ 768, -16, 161, 165 ],
+               [ 770, 0, 234, 279 ],
+               [ 786, 72, 6, -22 ],
+               [ 794, 15, 3, -1 ],
+               [ 796, -291, 121, 72 ],
+               [ 798, -526, 212, 104 ],
+               [ 802, 325, 115, 162 ],
+               [ 804, -38, -109, 17 ],
+               [ 816, 602, 178, -5 ],
+               [ 818, 471, 182, -2 ],
+               [ 820, 597, 216, 8 ],
+               [ 826, 226, 40, -26 ],
+               [ 827, 274, -31, 12 ],
+               [ 828, 268, -49, 8 ],
+               [ 830, 765, 128, 13 ],
+               [ 832, 863, 142, 0 ],
+               [ 838, -656, 111, 13 ],
+               [ 858, 143, 46, 24 ],
+               [ 859, 553, 92, 10 ],
+               [ 871, -2, 0, 0 ],
+               [ 872, -92, 17, -8 ],
+               [ 892, 16, 161, 165 ],
+               [ 894, -299, 75, -5 ]
+            ],
+            "host" : "KS Hairdo's\\hairline\\straightscalpHUMAN.tri",
+            "vertices" : 4294967295
+         },
+         {
+            "data" : [
+               [ 0, 1280, -1320, -89 ],
+               [ 1, 653, -2107, -456 ],
+               [ 2, 488, -1755, 548 ],
+               [ 3, 622, -1455, 226 ],
+               [ 4, 1496, -1133, 23 ],
+               [ 5, 858, -908, 177 ],
+               [ 6, 93, -1092, 155 ],
+               [ 7, 981, -1644, -311 ],
+               [ 8, 509, -1234, 575 ],
+               [ 9, 297, -514, -1058 ],
+               [ 10, -259, -436, -586 ],
+               [ 11, -192, -820, -1889 ],
+               [ 12, 71, -1233, -1980 ],
+               [ 13, 1434, -849, -1054 ],
+               [ 14, 2696, -458, -1192 ],
+               [ 15, 1520, 13, -834 ],
+               [ 16, 617, -944, -993 ],
+               [ 17, 996, -356, -859 ],
+               [ 18, 2184, 1219, -1028 ],
+               [ 19, 1905, 1394, -1310 ],
+               [ 20, 582, -862, 178 ],
+               [ 21, 1350, -1474, -143 ],
+               [ 22, 1317, -1212, -236 ],
+               [ 23, 1108, -1307, -343 ],
+               [ 24, 1165, -1544, -236 ],
+               [ 25, 969, -1465, -525 ],
+               [ 26, 974, -1825, -535 ],
+               [ 27, 886, -1665, -754 ],
+               [ 28, 1926, -1526, -461 ],
+               [ 29, 1773, -1342, -301 ],
+               [ 30, 1805, -1698, -304 ],
+               [ 31, 1546, -1211, -222 ],
+               [ 32, 1546, -1487, -130 ],
+               [ 33, 1319, -1005, -380 ],
+               [ 34, 1176, -1046, -451 ],
+               [ 35, 1077, -1120, -541 ],
+               [ 36, 952, -1258, -693 ],
+               [ 37, 867, -1469, -934 ],
+               [ 38, 1958, -1321, -626 ],
+               [ 39, 1799, -1129, -457 ],
+               [ 40, 1619, -1004, -383 ],
+               [ 41, 1470, -981, -370 ],
+               [ 42, 1328, -873, -535 ],
+               [ 43, 1187, -930, -586 ],
+               [ 44, 1089, -1003, -674 ],
+               [ 45, 985, -1089, -892 ],
+               [ 46, 902, -1288, -1122 ],
+               [ 47, 1941, -1149, -829 ],
+               [ 48, 1789, -965, -668 ],
+               [ 49, 1621, -889, -519 ],
+               [ 50, 1474, -866, -506 ],
+               [ 51, 1340, -792, -682 ],
+               [ 52, 827, -889, -1094 ],
+               [ 53, 1562, -792, -666 ],
+               [ 54, 1380, -749, -850 ],
+               [ 55, 1195, -820, -943 ],
+               [ 56, 1005, -1100, -1242 ],
+               [ 57, 1835, -972, -1010 ],
+               [ 58, 1576, -762, -837 ],
+               [ 59, 3592, -3510, -1602 ],
+               [ 60, 1540, -2028, 815 ],
+               [ 61, 1592, -800, 673 ],
+               [ 62, 4535, 6, -2573 ],
+               [ 63, 1669, -3352, -1324 ],
+               [ 64, 845, -1640, 1037 ],
+               [ 65, 1540, -2028, 815 ],
+               [ 66, 3592, -3510, -1602 ],
+               [ 67, 1559, -2812, -1948 ],
+               [ 68, 1292, -1077, 666 ],
+               [ 69, 691, -1272, 240 ],
+               [ 70, 540, -876, 417 ],
+               [ 71, 881, -1221, 120 ],
+               [ 72, 691, -1272, 240 ],
+               [ 73, 502, -710, 174 ],
+               [ 74, 5, -1104, 132 ],
+               [ 75, 911, -530, 185 ],
+               [ 76, 800, -1227, 635 ],
+               [ 77, 274, -1427, 249 ],
+               [ 78, 592, -2174, 355 ],
+               [ 79, 578, -2360, 150 ],
+               [ 80, -553, -2125, -234 ],
+               [ 81, -917, -1647, -908 ],
+               [ 82, 842, -1928, 4 ],
+               [ 83, 469, -1209, -692 ],
+               [ 84, 1864, -1135, -824 ],
+               [ 85, 383, -1576, -508 ],
+               [ 86, 800, -1227, 635 ],
+               [ 87, 2344, -1518, 391 ],
+               [ 88, -1307, -1432, -84 ],
+               [ 89, -644, -1553, 231 ],
+               [ 90, -401, -1706, 535 ],
+               [ 91, -562, -2062, -469 ],
+               [ 92, -1546, -1166, 40 ],
+               [ 93, -913, -928, 190 ],
+               [ 94, -135, -1096, 187 ],
+               [ 95, -1040, -1666, -295 ],
+               [ 96, -341, -1014, 516 ],
+               [ 97, -321, -425, -1081 ],
+               [ 98, -82, -1200, -2002 ],
+               [ 99, 236, -795, -1951 ],
+               [ 100, 367, -650, -566 ],
+               [ 101, -1540, -885, -956 ],
+               [ 102, -714, -1014, -897 ],
+               [ 103, -1636, -75, -735 ],
+               [ 104, -2803, -574, -1092 ],
+               [ 105, -1105, -435, -763 ],
+               [ 106, -2325, 1115, -929 ],
+               [ 107, -2051, 1296, -1210 ],
+               [ 108, -642, -876, 192 ],
+               [ 109, -1643, -1438, -155 ],
+               [ 110, -1403, -1375, -248 ],
+               [ 111, -1462, -1022, -353 ],
+               [ 112, -1773, -1128, -245 ],
+               [ 113, -1015, -1524, -547 ],
+               [ 114, -1128, -1150, -535 ],
+               [ 115, -879, -1310, -765 ],
+               [ 116, -2091, -1919, -469 ],
+               [ 117, -1970, -2005, -315 ],
+               [ 118, -2055, -1615, -310 ],
+               [ 119, -1841, -1596, -142 ],
+               [ 120, -2018, -1353, -231 ],
+               [ 121, -1596, -819, -458 ],
+               [ 122, -1795, -917, -388 ],
+               [ 123, -1384, -781, -549 ],
+               [ 124, -1119, -927, -702 ],
+               [ 125, -858, -1094, -943 ],
+               [ 126, -2093, -1416, -464 ],
+               [ 127, -2130, -1733, -633 ],
+               [ 128, -2107, -1212, -390 ],
+               [ 129, -1969, -1041, -377 ],
+               [ 130, -1592, -710, -593 ],
+               [ 131, -1788, -790, -541 ],
+               [ 132, -1385, -674, -681 ],
+               [ 133, -1133, -776, -899 ],
+               [ 134, -885, -936, -1129 ],
+               [ 135, -2060, -1243, -673 ],
+               [ 136, -2096, -1544, -834 ],
+               [ 137, -2093, -1097, -525 ],
+               [ 138, -1958, -929, -512 ],
+               [ 139, -1155, -613, -1100 ],
+               [ 140, -1764, -719, -687 ],
+               [ 141, -2002, -938, -672 ],
+               [ 142, -1412, -656, -947 ],
+               [ 143, -1654, -719, -854 ],
+               [ 144, -1025, -805, -1247 ],
+               [ 145, -1981, -1286, -1014 ],
+               [ 146, -1851, -876, -841 ],
+               [ 147, -4550, -3142, -2166 ],
+               [ 148, -4561, -88, -2565 ],
+               [ 149, -1591, -833, 675 ],
+               [ 150, -1509, -2058, 817 ],
+               [ 151, -1562, -3103, -2264 ],
+               [ 152, -4550, -3142, -2166 ],
+               [ 153, -1509, -2058, 817 ],
+               [ 154, -894, -1662, 1034 ],
+               [ 155, -1537, -2852, -1947 ],
+               [ 156, -1333, -1123, 659 ],
+               [ 157, -675, -1283, 240 ],
+               [ 158, -536, -886, 418 ],
+               [ 159, -675, -1283, 240 ],
+               [ 160, -929, -1240, 119 ],
+               [ 161, -67, -1107, 128 ],
+               [ 162, -565, -738, 164 ],
+               [ 163, -933, -571, 178 ],
+               [ 164, -563, -2184, 356 ],
+               [ 165, -259, -1430, 250 ],
+               [ 166, -800, -1238, 631 ],
+               [ 167, -542, -2372, 152 ],
+               [ 168, 281, -2037, -509 ],
+               [ 169, 876, -1632, -919 ],
+               [ 170, 584, -2112, -236 ],
+               [ 171, -472, -1229, -690 ],
+               [ 172, -358, -1586, -505 ],
+               [ 173, -1849, -1175, -819 ],
+               [ 174, -2329, -1566, 396 ],
+               [ 175, -788, -1242, 637 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\EyesFemaleChargen.tri",
+            "vertices" : 176
+         },
+         {
+            "data" : [
+               [ 0, -2190, 1832, -4238 ],
+               [ 56, 1439, 675, -2640 ],
+               [ 1, -1755, 313, -2551 ],
+               [ 29, -3156, 150, -4261 ],
+               [ 53, 1937, 1125, -3932 ],
+               [ 62, 902, -846, -3105 ],
+               [ 14, -2666, -695, -3376 ],
+               [ 78, -234, 2236, -5929 ],
+               [ 28, 242, 1511, -5593 ],
+               [ 79, 2940, -487, -3768 ],
+               [ 15, -1254, -333, -3486 ],
+               [ 61, 443, 864, -5549 ],
+               [ 10, 269, 796, -5526 ],
+               [ 3, -3334, 254, -2864 ],
+               [ 30, -5093, -337, -3055 ],
+               [ 54, 3325, 303, -2872 ],
+               [ 13, -3940, 1465, -2702 ],
+               [ 17, -3220, 798, -2209 ],
+               [ 63, 3908, 1623, -2812 ],
+               [ 70, 3199, 908, -2289 ],
+               [ 6, 1008, 176, -7237 ],
+               [ 7, -562, 634, -3485 ],
+               [ 18, -854, 189, -2742 ],
+               [ 82, 117, -313, -6182 ],
+               [ 32, -650, -582, -5958 ],
+               [ 38, -1363, -1735, -2148 ],
+               [ 2, -2712, -19, -1180 ],
+               [ 4, -1252, 1043, -3818 ],
+               [ 5, 428, 543, -7200 ],
+               [ 8, -292, -1386, -2689 ],
+               [ 9, -637, -864, -3102 ],
+               [ 11, -144, -55, -5635 ],
+               [ 12, -3648, 1211, -4029 ],
+               [ 16, -2186, -407, -2507 ],
+               [ 19, -626, -176, -3118 ],
+               [ 20, 114, -525, -4986 ],
+               [ 21, 42, 806, -6838 ],
+               [ 22, -966, 506, -4569 ],
+               [ 23, -1081, -682, -377 ],
+               [ 24, -270, -607, 111 ],
+               [ 25, -240, 1112, -6800 ],
+               [ 26, -533, -93, -5751 ],
+               [ 27, 32, 1490, -6506 ],
+               [ 31, -3159, -1855, -2809 ],
+               [ 33, -1238, -447, -2734 ],
+               [ 34, -3, -36, -3719 ],
+               [ 35, -47, -574, -4709 ],
+               [ 36, -469, 2036, -5674 ],
+               [ 37, -1181, 1201, -3863 ],
+               [ 39, -2123, 1948, -2311 ],
+               [ 40, -1556, -1314, -99 ],
+               [ 41, -1760, -1604, -321 ],
+               [ 42, -1976, -1063, -517 ],
+               [ 43, -2090, -548, -471 ],
+               [ 44, -993, 1668, -2629 ],
+               [ 45, -849, -479, -244 ],
+               [ 46, 77, 2326, -4398 ],
+               [ 47, -119, -233, -4031 ],
+               [ 48, -526, 139, -3655 ],
+               [ 49, 4, 1222, -4649 ],
+               [ 50, -260, 1333, -3065 ],
+               [ 51, -1320, 553, -2155 ],
+               [ 52, -703, -436, 155 ],
+               [ 55, 2719, 23, -1091 ],
+               [ 57, 1221, 1047, -3824 ],
+               [ 58, 1048, 491, -4388 ],
+               [ 59, -1032, 147, -7232 ],
+               [ 60, -458, 532, -7200 ],
+               [ 64, 3615, 1275, -4041 ],
+               [ 65, 1254, -309, -3489 ],
+               [ 66, 2673, -634, -3380 ],
+               [ 67, 2195, -337, -2517 ],
+               [ 68, 597, -239, -3183 ],
+               [ 69, 759, 168, -3001 ],
+               [ 71, -115, -527, -4985 ],
+               [ 72, 944, 520, -4570 ],
+               [ 73, -75, 798, -6836 ],
+               [ 74, 1096, -659, -381 ],
+               [ 75, 198, 1112, -6800 ],
+               [ 76, -69, 1503, -6524 ],
+               [ 77, 523, -66, -5667 ],
+               [ 80, 3074, -1780, -2805 ],
+               [ 81, 5057, -243, -3046 ],
+               [ 83, 1244, -417, -2736 ],
+               [ 84, 48, -574, -4709 ],
+               [ 85, 407, 2039, -5675 ],
+               [ 86, 1144, 1227, -3865 ],
+               [ 87, 1655, 1978, -2361 ],
+               [ 88, 1292, -1702, -2127 ],
+               [ 89, 1569, -1268, -103 ],
+               [ 90, 1770, -1609, -313 ],
+               [ 91, 1993, -1024, -522 ],
+               [ 92, 2105, -510, -484 ],
+               [ 93, 851, -457, -248 ],
+               [ 94, 951, 1706, -2634 ],
+               [ 95, -133, 2335, -4399 ],
+               [ 96, 516, 203, -3434 ],
+               [ 97, 114, -231, -4031 ],
+               [ 98, -41, 1254, -4548 ],
+               [ 99, 378, 1575, -3356 ],
+               [ 100, 1395, 898, -1938 ],
+               [ 101, 707, -421, 154 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\FaceParts\\FemaleHeadBrowsCharGen.tri",
+            "vertices" : 102
+         }
+      ],
+      "sculptDivisor" : 10000
+   },
+   "overrides" : [
+      {
+         "node" : "Body [Ovl0]",
+         "values" : [
+            {
+               "data" : -4736387,
+               "index" : -1,
+               "key" : 7,
+               "type" : 3
+            },
+            {
+               "data" : 1,
+               "index" : -1,
+               "key" : 8,
+               "type" : 4
+            },
+            {
+               "data" : "textures\\actors\\character\\overlays\\default.dds",
+               "index" : 0,
+               "key" : 9,
+               "type" : 2
+            }
+         ]
+      }
+   ],
+   "tintInfo" : [
+      {
+         "color" : 4290230909,
+         "index" : 0,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\SkinTone.dds"
+      },
+      {
+         "color" : 4278190080,
+         "index" : 1,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleUpperEyeSocket.dds"
+      },
+      {
+         "color" : 3208007201,
+         "index" : 2,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleLowerEyeSocket.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 3,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_Cheeks.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 4,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_Cheeks2.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 5,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_FrownLines.dds"
+      },
+      {
+         "color" : 2603556883,
+         "index" : 6,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHighElf_Lips.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 7,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHuman_Nose.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 8,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHuman_ForeHead.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 9,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHuman_Chin.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 10,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHuman_Neck.dds"
+      },
+      {
+         "color" : 1839369,
+         "index" : 11,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_01.dds"
+      },
+      {
+         "color" : 4280101169,
+         "index" : 12,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\EyeShadow\\Lid 2.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 13,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_03.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 14,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_04.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 15,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_05.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 16,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_06.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 17,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_07.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 18,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_08.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 19,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_09.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 20,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadWarPaint_10.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 21,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHighElfWarPaint_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 22,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHighElfWarPaint_02.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 23,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHighElfWarPaint_03.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 24,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHighElfWarPaint_04.dds"
+      },
+      {
+         "color" : 4278190080,
+         "index" : 25,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 26,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadDirt_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 27,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadDirt_02.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 28,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadDirt_03.dds"
+      }
+   ],
+   "version" : {
+      "formatVersion" : 3,
+      "runtimeVersion" : 17039392,
+      "signature" : 1163086675,
+      "skseVersion" : 33685600
+   }
+}

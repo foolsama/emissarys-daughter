@@ -18,5 +18,6 @@ Event OnStoryJail(ObjectReference akGuard, Form akCrimeGroup, Location akLocatio
 	endif
 
 	tracker.HandleStoryJailEvent(akGuard, akCrimeGroup, akLocation, aiCrimeGold)
+	; Story Manager restarts this quest on the next matching event; stopping here just resets it.
 	Stop()
 EndEvent

@@ -11,7 +11,7 @@ if tracker == None
     tracker = GetOwningQuest() as fSSEED_Convo_Tracker
 endif
 if tracker != None
-    tracker.Convo8 = 40
+    tracker.Convo8 = 20
 else
     Debug.Trace("fSSEED_C_8_TIF_1M: Convo tracker is None")
 endif
