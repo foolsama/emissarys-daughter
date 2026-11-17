@@ -2,14 +2,14 @@
 ;NEXT FRAGMENT INDEX 4
 Scriptname fSSEED_InterludeCourier_QFs Extends Quest Hidden
 
-;BEGIN ALIAS PROPERTY Courier
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Courier Auto
-;END ALIAS PROPERTY
-
 ;BEGIN ALIAS PROPERTY Alenawe
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_Alenawe Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Courier
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Courier Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY CenterMarker
@@ -22,20 +22,21 @@ ReferenceAlias Property Alias_CenterMarker Auto
 LocationAlias Property Alias_Location Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
-;BEGIN CODE
-Alias_Courier.TryToClear()
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0()
 ;BEGIN CODE
 ;Grab aliases, move courier
 Alias_Courier.GetRef().Moveto(Alias_CenterMarker.GetRef())
 CourierScene.Start()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
+;BEGIN CODE
+Alias_Courier.TryToClear()
+Stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT

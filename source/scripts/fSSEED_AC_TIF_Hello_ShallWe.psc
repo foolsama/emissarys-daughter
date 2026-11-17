@@ -7,6 +7,7 @@ Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
 (pDialogueFollower as DialogueFollowerScript).SetFollower(akspeaker)
+AlenaweDismissed.SetValue(0)
 Float currentDay = GameDays.GetValue()
 if DateDismissed.GetValue() >= 0.0
    
@@ -47,3 +48,5 @@ Quest Property pDialogueFollower  Auto
 Quest Property AC  Auto  
 
 fSSEED_PlayerBehaviorScript Property PlayerBehavior Auto
+
+GlobalVariable Property AlenaweDismissed  Auto  

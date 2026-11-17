@@ -2,14 +2,14 @@
 ;NEXT FRAGMENT INDEX 32
 Scriptname fSSEED_QFs_Interlude Extends Quest Hidden
 
-;BEGIN ALIAS PROPERTY Courier
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Courier Auto
-;END ALIAS PROPERTY
-
 ;BEGIN ALIAS PROPERTY Alenawe
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_Alenawe Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Courier
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Courier Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Delphine
@@ -17,19 +17,30 @@ ReferenceAlias Property Alias_Alenawe Auto
 ReferenceAlias Property Alias_Delphine Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_27
-Function Fragment_27()
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0()
+;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
+Quest __temp = self as Quest
+fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
+;END AUTOCAST
 ;BEGIN CODE
-;briefing given, begin interrupt scene
-UnregisterforUpdate()
+;set up courier
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_3
-Function Fragment_3()
+;BEGIN FRAGMENT Fragment_23
+Function Fragment_23()
+;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
+Quest __temp = self as Quest
+fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
+;END AUTOCAST
 ;BEGIN CODE
-;player has brought up behavior difference
+; Late recruitment Clinical start
+SetObjectiveDisplayed(50)
+kmyQuest.AffinitySave = Affinity.GetValue()
+Affinity.Mod(-40)
+kmyQuest.StabilitySave = Stability.GetValueInt()
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -42,10 +53,87 @@ Function Fragment_30()
 EndFunction
 ;END FRAGMENT
 
+;BEGIN FRAGMENT Fragment_25
+Function Fragment_25()
+;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
+Quest __temp = self as Quest
+fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
+;END AUTOCAST
+;BEGIN CODE
+; Late recruitment dick start
+SetObjectiveDisplayed(50)
+kmyQuest.AffinitySave = Affinity.GetValue()
+Affinity.Mod(-40)
+kmyQuest.StabilitySave = Stability.GetValueInt()
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;BEGIN FRAGMENT Fragment_9
 Function Fragment_9()
 ;BEGIN CODE
 ;Blade in the Dark finished, set aliases and begin dialogue options, listen for quest stages
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_27
+Function Fragment_27()
+;BEGIN CODE
+;briefing given, begin interrupt scene
+UnregisterforUpdate()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
+;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
+Quest __temp = self as Quest
+fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
+;END AUTOCAST
+;BEGIN CODE
+;Alenawe has received note from Elenwen
+UnRegisterForUpdate()
+;set affinity back (temporarily)
+kmyQuest.AffinitySave = Affinity.GetValue()
+Affinity.Mod(-40)
+kmyQuest.StabilitySave = Stability.GetValueInt()
+If Stability.GetValue()== 3
+Stability.SetValue(2)
+EndIf
+SetObjectiveDisplayed(40)
+Debug.Trace("fSSEED_I: Affinity temporarily adjusted down")
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
+;BEGIN CODE
+;Player exited cave, set up forcegreet
+PostMissionFG.Start()
+SetObjectiveCompleted(20)
+DateEmbassyBreached.SetValue(GameDaysPassed.GetValue())
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_16
+Function Fragment_16()
+;BEGIN CODE
+;First ask about letter
+InterludeCourierQuest.SetStage(100)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_5
+Function Fragment_5()
+;BEGIN CODE
+;Alenawe ready for conversation
+SetObjectiveCompleted(40)
+SetObjectiveDisplayed(50)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -73,107 +161,10 @@ Stop()
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
-;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
-Quest __temp = self as Quest
-fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
-;END AUTOCAST
+;BEGIN FRAGMENT Fragment_3
+Function Fragment_3()
 ;BEGIN CODE
-;Alenawe has received note from Elenwen
-UnRegisterForUpdate()
-;set affinity back (temporarily)
-kmyQuest.AffinitySave = Affinity.GetValue()
-Affinity.Mod(-40)
-kmyQuest.StabilitySave = Stability.GetValueInt()
-If Stability.GetValue()== 3
-Stability.SetValue(2)
-EndIf
-SetObjectiveDisplayed(40)
-Debug.Trace("fSSEED_I: Affinity temporarily adjusted down")
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_16
-Function Fragment_16()
-;BEGIN CODE
-;First ask about letter
-InterludeCourierQuest.SetStage(100)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_23
-Function Fragment_23()
-;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
-Quest __temp = self as Quest
-fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
-;END AUTOCAST
-;BEGIN CODE
-; Late recruitment Clinical start
-SetObjectiveDisplayed(50)
-kmyQuest.AffinitySave = Affinity.GetValue()
-Affinity.Mod(-40)
-kmyQuest.StabilitySave = Stability.GetValueInt()
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
-;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
-Quest __temp = self as Quest
-fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
-;END AUTOCAST
-;BEGIN CODE
-;set up courier
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_1
-Function Fragment_1()
-;BEGIN CODE
-;Player has debriefed Alenawe
-SetObjectiveDisplayed(30)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
-;BEGIN CODE
-;Player exited cave, set up forcegreet
-PostMissionFG.Start()
-SetObjectiveCompleted(20)
-DateEmbassyBreached.SetValue(GameDaysPassed.GetValue())
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_5
-Function Fragment_5()
-;BEGIN CODE
-;Alenawe ready for conversation
-SetObjectiveCompleted(40)
-SetObjectiveDisplayed(50)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_18
-Function Fragment_18()
-;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
-Quest __temp = self as Quest
-fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
-;END AUTOCAST
-;BEGIN CODE
-;Late recruitment Supportive start
-SetObjectiveDisplayed(50)
-kmyQuest.AffinitySave = Affinity.GetValue()
-Affinity.Mod(-40)
-kmyQuest.StabilitySave = Stability.GetValueInt()
+;player has brought up behavior difference
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -188,14 +179,24 @@ UnregisterforUpdate()
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_25
-Function Fragment_25()
+;BEGIN FRAGMENT Fragment_1
+Function Fragment_1()
+;BEGIN CODE
+;Player has debriefed Alenawe
+SetObjectiveDisplayed(30)
+Convo3B.SetValue(50)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_18
+Function Fragment_18()
 ;BEGIN AUTOCAST TYPE fSSEED_InterludeScript
 Quest __temp = self as Quest
 fSSEED_InterludeScript kmyQuest = __temp as fSSEED_InterludeScript
 ;END AUTOCAST
 ;BEGIN CODE
-; Late recruitment dick start
+;Late recruitment Supportive start
 SetObjectiveDisplayed(50)
 kmyQuest.AffinitySave = Affinity.GetValue()
 Affinity.Mod(-40)
@@ -223,3 +224,5 @@ Scene Property CourierDelivery  Auto
 GlobalVariable Property DateEmbassyBreached  Auto  
 
 Quest Property InterludeCourierQuest  Auto  
+
+GlobalVariable Property Convo3B  Auto  

@@ -10,7 +10,7 @@ EndEvent
 
 Event OnTriggerLeave(ObjectReference akActionRef)
 	Debug.Trace("fSSEED_WI_MG06 Trigger left by " +akActionRef)
-	If akActionRef == Game.GetPlayer() && MG06.GetStage() >= 60
+	If akActionRef == Game.GetPlayer() && MG06.GetStage() >= 60 && !Paratus.IsDead()
 		Paratus.SetAV("Health", 10)
 		Paratus.SetAV("Aggression", 3)
 		Paratus.SetAV("Confidence", 4)

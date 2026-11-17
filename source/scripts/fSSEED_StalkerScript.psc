@@ -11,6 +11,9 @@ Actor Property Alonythil Auto
 ReferenceAlias Property aPlayer  Auto                  ; points to tracker quest's aPlayer alias
 ObjectReference Property pDefaultHome  Auto            ; default dismissal marker (REFR) if logic fails
 LocationAlias Property AlenaweDismissHome  Auto        ; Location alias used by AI packages for dismissed behavior
+Location Property ChosenHomeLoc Auto
+ObjectReference Property ChosenHomeMarker Auto
+GlobalVariable Property AlenaweDismissed Auto
 GlobalVariable Property Elligibility Auto
 GlobalVariable Property Affinity  Auto
 GlobalVariable Property StabilityScore Auto
@@ -132,31 +135,31 @@ Bool Function CheckEligibility()
     endif
     
     ; Check if other Thane
-    if RiftenThane.IsCompleted()
+    if RiftenThane.GetStageDone(200)
         score += 1
     endif
-    if Favor250.IsCompleted()
+    if Favor250.GetStageDone(200)
         score += 1
     endif
-    if Favor252.IsCompleted()
+    if Favor252.GetStageDone(200)
         score += 1
     endif
-    if Favor253.IsCompleted()
+    if Favor253.GetStageDone(200)
         score += 1
     endif
-    if Favor254.IsCompleted()
+    if Favor254.GetStageDone(200)
         score += 1
     endif
-    if Favor255.IsCompleted()
+    if Favor255.GetStageDone(200)
         score += 1
     endif
-    if Favor256.IsCompleted()
+    if Favor256.GetStageDone(200)
         score += 1
     endif
-    if Favor257.IsCompleted()
+    if Favor257.GetStageDone(200)
         score += 1
     endif
-    if Favor258.IsCompleted()
+    if Favor258.GetStageDone(200)
         score += 1
     endif
 
@@ -314,37 +317,57 @@ Function MissionTravel()
     endif
 EndFunction
 
+Function SetPlayerHome()
+    Location here = Game.GetPlayer().GetCurrentLocation()
+    if here == None
+        return
+    endif
+
+    ChosenHomeLoc = here
+    ChosenHomeMarker.MoveTo(Game.GetPlayer())
+EndFunction
+
+Function ClearPlayerHome()
+    ChosenHomeLoc = None
+    ChosenHomeMarker = None
+EndFunction
+
 Function DismissAlenawe()
     ; called when dismissing Alenawe
-    Location homeLoc = GetPostLocationFromGV()
-    ObjectReference marker = GetPostMarkerFromGV()
-    PlayerBehavior.PauseBehaviorTracking()
-    if homeLoc == None
-        fSSEED_LocationTracker tracker = GetTracker()
-        if tracker
-            homeLoc = tracker.LastTownLocation
-        endif
-    endif
-
-    if homeLoc && AlenaweDismissHome
-        AlenaweDismissHome.ForceLocationTo(homeLoc)
-        Debug.Notification("Stalker: sending Alenawe to " + homeLoc.GetName())
+    if MissionBegins.IsCompleted() && ChosenHomeLoc
+        AlenaweDismissHome.ForceLocationTo(ChosenHomeLoc)
+        Alenawe.Moveto(ChosenHomeMarker)
     else
-        Debug.Notification("Stalker: no LastTownLocation, using DefaultHome")
-        if AlenaweDismissHome && pDefaultHome
-            AlenaweDismissHome.ForceLocationTo(pDefaultHome.GetCurrentLocation())
-        endif
-    endif
+            Location homeLoc = GetPostLocationFromGV()
+            ObjectReference marker = GetPostMarkerFromGV()
+            PlayerBehavior.PauseBehaviorTracking()
+            if homeLoc == None
+                fSSEED_LocationTracker tracker = GetTracker()
+                if tracker
+                    homeLoc = tracker.LastTownLocation
+                endif
+            endif
 
-    if Alenawe && marker
-        Location currentLoc = Alenawe.GetCurrentLocation()
-        Location targetLoc = marker.GetCurrentLocation()
-        if currentLoc == None || targetLoc == None || currentLoc != targetLoc
-            Alenawe.MoveTo(marker)
+            if homeLoc && AlenaweDismissHome
+                AlenaweDismissHome.ForceLocationTo(homeLoc)
+                Debug.Notification("Stalker: sending Alenawe to " + Alenawe.GetParentCell().GetName())
+            else
+                Debug.Notification("Stalker: no LastTownLocation, using DefaultHome")
+                if AlenaweDismissHome && pDefaultHome
+                    AlenaweDismissHome.ForceLocationTo(pDefaultHome.GetCurrentLocation())
+                endif
+            endif
+        if Alenawe && marker
+            Location currentLoc = Alenawe.GetCurrentLocation()
+            Location targetLoc = marker.GetCurrentLocation()
+            if currentLoc == None || targetLoc == None || currentLoc != targetLoc
+                Alenawe.MoveTo(marker)
+            endif
         endif
     endif
 
     if Alenawe
+        AlenaweDismissed.SetValue(1)
         Alenawe.EvaluatePackage()
     endif
 EndFunction  

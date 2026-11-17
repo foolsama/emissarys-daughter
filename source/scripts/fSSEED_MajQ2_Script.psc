@@ -17,6 +17,7 @@ Bool Property PlayerWasMS09Ally Auto Conditional
 GlobalVariable Property Playstyle Auto
 GlobalVariable Property GameDaysPassed Auto
 GlobalVariable Property DateKeepExited Auto
+Int Property NoticeGiven Auto Conditional
 Float Property CurrentDate Auto
 Spell Property Witness Auto
 Message Property WitnessMESG Auto

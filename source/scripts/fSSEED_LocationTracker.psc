@@ -201,31 +201,33 @@ Event OnPlayerLoadGame()
 EndEvent
 
 Function TryStartWarn(string asSource)
-    if Warn == None
-        Debug.Trace("FSSEED:Stability - Warn scene not assigned, skipping")
-        return
-    endif
+    If Alenawe.GetFactionRank(CurrentFollowerFaction) = 1
+        if Warn == None
+            Debug.Trace("FSSEED:Stability - Warn scene not assigned, skipping")
+            return
+        endif
 
-    If WarnedCount.GetValue() >= 4
-        (AlenaweController as fSSEED_AC_SCript).GhostAlenawe()
-        Debug.Trace("fSSEED_LocationTracker: Player F'd up too many times, ghosting Alenawe!")
-        return
+        If WarnedCount.GetValue() >= 4 && StabilityTier.GetValue() < 2
+            (AlenaweController as fSSEED_AC_SCript).GhostAlenawe()
+            Debug.Trace("fSSEED_LocationTracker: Player F'd up too many times, ghosting Alenawe!")
+            return
+        EndIf
+
+        if Warn.IsPlaying()
+            Debug.Trace("FSSEED:Stability - Warn scene already playing, skipping")
+            return
+        endif
+
+        float now = Utility.GetCurrentRealTime()
+        if now - LastWarnTime < WarnCooldownSeconds
+            Debug.Trace("FSSEED:Stabliity - Warn scene cooldown active, skipping")
+            return
+        endif
+        LastWarnTime = now
+        (conv as fSSEED_Convo_Tracker).Convo2 = 1
+        Debug.Trace("FSSEED:Stability - Warn scene started from " + asSource)
+        Warn.Start()
     EndIf
-
-    if Warn.IsPlaying()
-        Debug.Trace("FSSEED:Stability - Warn scene already playing, skipping")
-        return
-    endif
-
-    float now = Utility.GetCurrentRealTime()
-    if now - LastWarnTime < WarnCooldownSeconds
-        Debug.Trace("FSSEED:Stabliity - Warn scene cooldown active, skipping")
-        return
-    endif
-    LastWarnTime = now
-    (conv as fSSEED_Convo_Tracker).Convo2 = 1
-    Debug.Trace("FSSEED:Stability - Warn scene started from " + asSource)
-    Warn.Start()
 EndFunction
 
 Function InitializeStabilityTracking()
@@ -300,7 +302,7 @@ Event OnLocationChange(Location akOldLoc, Location akNewLoc)
     Location holdLoc = ResolveHold(akNewLoc)
     if holdLoc
         LastTownLocation = holdLoc
-        Debug.Trace("FSSEED:Tracker - LastTownLocation set to HOLD " + holdLoc.GetName())
+        Debug.Trace("FSSEED:Tracker - LastTownLocation set to HOLD " + holdLoc)
 
         int idx = GetHoldIndex(holdLoc)
         if idx >= 0 && PostLocation
@@ -312,7 +314,7 @@ Event OnLocationChange(Location akOldLoc, Location akNewLoc)
     ; 2) Inns
     if akNewLoc && LocTypeInn && akNewLoc.HasKeyword(LocTypeInn)
         LastInnLocation = akNewLoc
-        Debug.Trace("FSSEED:Tracker - LastInnLocation set to " + akNewLoc.GetName())
+        Debug.Trace("FSSEED:Tracker - LastInnLocation set to " + akNewLoc)
     endif
 
     UpdateStabilityTelemetry()
@@ -439,7 +441,7 @@ Function UpdateStabilityTelemetry()
     ; Cap how much the rolling telemetry can improve score so "no crime sprees"
     ; smoothes volatility but cannot, by itself, drive tier-3 outcomes.
     float rollingDelta = RollingDiscretion - RollingVolatility - (RollingFriction * 0.7)
-    if baseScore >= 15.0
+    if baseScore < 15.0
         rollingDelta = ClampFloat(rollingDelta, -100.0, 0.0)
     else 
         rollingDelta = ClampFloat(rollingDelta, -100.0, 100.0)
@@ -492,39 +494,39 @@ float Function GetStabilizerScore()
     endif
 
     if DawnguardResolutionQuest && DawnguardResolutionQuest.IsCompleted()
-        score += 20.0
+        score += 15.0
     endif
 
     if DragonbornResolutionQuest && DragonbornResolutionQuest.IsCompleted()
-        score += 20.0
+        score += 15.0
     endif
 
-    if RiftenThane && RiftenThane.GetStageDone(200)
-        score += 3.0
+    if RiftenThane.GetStageDone(200)
+        score += 23.0
     endif
-    if Favor250 && Favor250.IsCompleted()
-        score += 3.0
+    if Favor250.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor252 && Favor252.IsCompleted()
-        score += 3.0
+    if Favor252.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor253 && Favor253.IsCompleted()
-        score += 3.0
+    if Favor253.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor254 && Favor254.IsCompleted()
-        score += 3.0
+    if Favor254.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor255 && Favor255.IsCompleted()
-        score += 3.0
+    if Favor255.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor256 && Favor256.IsCompleted()
-        score += 3.0
+    if Favor256.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor257 && Favor257.IsCompleted()
-        score += 3.0
+    if Favor257.GetStageDone(200)
+        score += 2.0
     endif
-    if Favor258 && Favor258.GetStageDone(200)
-        score += 3.0
+    if Favor258.GetStageDone(200)
+        score += 2.0
     endif
 
     ; Stabilizers: quests where a major Daedric threat was successfully contained.
@@ -700,7 +702,7 @@ Function QuestStarters()
     bool courierTimingReady = DateEmbassyBreached.GetValue() > 0 && CurrentDays - DateEmbassyBreached.GetValue() >= 3.0
     bool courierLocationReady = alenaweLocation != None && playerLocation != None && alenaweLocation.IsSameLocation(playerLocation, LocTypeHabitation)
     bool courierDeliverySpaceReady = playerLocation != None && playerLocation.HasKeyword(LocTypeHabitation) && !Game.GetPlayer().IsInInterior()
-    If !Interlude.IsCompleted() && MQ201.GetStage() >= 227 && courierTimingReady && courierLocationReady && courierDeliverySpaceReady
+    If !Interlude.GetStageDone(28) && MQ201.GetStage() >= 227 && courierTimingReady && courierLocationReady && courierDeliverySpaceReady
         If !Courier.GetRef().IsEnabled()
             Courier.GetRef().Enable()
         EndIf
@@ -716,12 +718,14 @@ Function QuestStarters()
         Debug.Trace("FSSEED:Tracker - Interlude delivery waiting: sameLocation=" + courierLocationReady + ", exteriorHabitation=" + courierDeliverySpaceReady + ", player=" + playerLocation + ", Alenawe=" + alenaweLocation)
     EndIf
     ; Alenawe processing time complete after letter
-    If GameDaysPassed.GetValue() - LetterDays >= 1.0 && Interlude.GetStage() == 35 || Interlude.GetStage() == 40
-        Interlude.SetStage(50)
-        Debug.Trace("FSSEED:Tracker - Interlude stage set to 50 from location tracker")
+    If GameDaysPassed.GetValue() - LetterDays >= 1.0
+        If Interlude.GetStage() == 35 || Interlude.GetStage() == 40
+            Interlude.SetStage(50)
+            Debug.Trace("FSSEED:Tracker - Interlude stage set to 50 from location tracker")
         EndIf
+    EndIf
     ; Start MajQ2 three days after MinM2 completed without interfering with MS09
-    If !MS09.IsRunning() || MS09.IsCompleted()
+    If MS09.GetStage() < 10 || MS09.GetStage() > 110
         If MinM2.IsCompleted() && !MajQ2.IsRunning() && !MajQ2.IsCompleted()
             Debug.Trace("FSSEED:Tracker - Days since MinM2 = " + (CurrentDays - MinM2DaysPassed.GetValue()))
             If CurrentDays - MinM2DaysPassed.GetValue() >= 3.0

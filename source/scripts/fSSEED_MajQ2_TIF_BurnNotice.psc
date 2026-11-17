@@ -7,6 +7,7 @@ Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
 GetOwningQuest().SetObjectiveDisplayed(75)
+(GetOwningQuest() as fSSEED_MajQ2_Script).NoticeGiven = 1
 ;END CODE
 EndFunction
 ;END FRAGMENT

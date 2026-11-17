@@ -1,9 +1,18 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 15
+;NEXT FRAGMENT INDEX 18
 Scriptname fSSEED_MajQ2_SF_ClerkSceneEnd Extends Scene Hidden
 
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0()
+;BEGIN CODE
+getowningquest().setstage(40)
+(GetOwningQuest() as fSSEED_MajQ2_Script).CompleteParley()
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_16
+Function Fragment_16()
 ;BEGIN CODE
 getowningquest().setstage(40)
 (GetOwningQuest() as fSSEED_MajQ2_Script).CompleteParley()
